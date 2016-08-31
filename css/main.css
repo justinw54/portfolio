@@ -1,0 +1,15 @@
+/*
+Main.css Custom Styles
+Justin White
+August 31, 2016
+
+
+*/
+
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: "neuzeit-grotesk",sans-serif;
+  color: rgba( 50,50,50,1 );
+}
