@@ -13,3 +13,47 @@ html, body {
   font-family: "neuzeit-grotesk",sans-serif;
   color: rgba( 50,50,50,1 );
 }
+
+
+/*  ========   Navigation Styles   =============    */
+
+    header {
+      margin-top: 4em;
+      margin-bottom: 8em;
+
+    }
+
+    .logo_header svg {
+
+      height: 4em;
+    }
+    ol, ul { list-style: none; }
+    ul li {
+       list-style-type: none;
+
+    }
+    ul a {
+      text-decoration: none;
+      color: rgba( 85, 85, 85, 0.85 );
+      font-size: 1.5em;
+    }
+
+    .headline {
+      margin-bottom: 4em;
+    }
+
+
+
+
+/*  ========   Body Styles   =============    */
+
+    .updates {
+        margin-bottom: 4em;
+    }
+
+
+
+
+    .projects {
+      margin-bottom: 4em;
+    }
