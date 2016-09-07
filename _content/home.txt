@@ -1,0 +1,22 @@
+###home-page
+
+#NAV
+work
+about
+thinking
+
+
+#landing
+Justin White is a Design Student at YSDN
+Focused on User Experience in the context of Mobile, Web Design
+Connect.
+
+
+#Updates
+
+
+
+#Latest Work
+
+
+#Footer
