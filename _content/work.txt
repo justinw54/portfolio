@@ -1,1 +1,51 @@
 ###work
+
+
+###Framework
+
+<date completed>
+<title>
+<logo/svg/img>
+<1-2 sentence desc>
+<tags>
+<links>
+
+
+
+#Big-bloom
+
+Sept 2016
+Big Bloom Cost Rationalization Tool (Beta)
+<logo>
+Big Bloom is an application that allows users of Bloomberg financial products greater insight into their spending structure, and by extension highlighting large opportunities for cost savings. I helped with performing user research and designing the interface for the product.
+
+User Experience Design
+Prototyping
+Interface Design
+
+<links>
+
+
+#The-port
+
+July 2016
+The Port Fish & Chips Restaurant
+<logo>
+The Port is a fish and chips restaurant located on Manitoulin Island, Ontario. A responsive, mobile first website was designed and collaboratively developed for their restaurant, that included their menu, hours and contact information, as well as a live updating facebook news feed. 
+
+Website Design
+Front End Development
+
+<links>
+
+
+#tressle-get-access
+
+June 2016
+Tressle Get Access Landing Page
+<logo>
+The Tressle Access initiative invited interior designers to purchase an exclusive annual membership in exchange for premium pricing and unlimited access. I designed and built the landing page that was later circulated to more than 5000 recipients as part of an e-mail marketing campaign.
+
+Interaction Design
+
+<links>

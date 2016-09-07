@@ -8,15 +8,49 @@ thinking
 
 #landing
 Justin White is a Design Student at YSDN
-Focused on User Experience in the context of Mobile, Web Design
+Focused on User Experience Design in the context of Mobile, Web Applications.
 Connect.
 
 
 #Updates
+September 9, 2016
+Big Bloom Financial Tool (Beta)  delivered, case study available here.
 
+August 26, 2016
+The Port Restaurant Website Design mockup, assets completed, development work commencing.
 
+June 20, 2016
+Tressle Get Access Landing Page completed, incorporated into interior designer targeted e-mail campaign. View details here. 
+
+April 6, 2016
+jgjwhite.com v1.0 online, view here.
 
 #Latest Work
 
+Big Bloom Beta
+<logo/img>
+Financial Cost Rationalization Tool
+
+Case Study >
+Interactive Prototype >
+===
+
+The Port Fish & Chips
+<logo/img>
+Website designed & developed collaboratively for The Port Fish and Chips, Little Current Ontario.
+
+Description >
+theportlc.com >
+===
+
+
+
 
 #Footer
+
+justin.gj.white@gmail.com
+<social media>
+
+Made with the help of Initializr, as well as Foundation 6 by Zurb. 
+
+c. twenty sixteen.
