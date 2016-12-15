@@ -1,20 +1,0 @@
-###about
-
-#NAV
-work
-about
-thinking
-
-#landing
-
-
-#about
-<profile pic>
-
-<placeholder>
-
-
-
-
-#timeline
-2015YSDNCurrently studying at the York Sheridan Design Program in Toronto, Canada. Focussing my efforts on developing a strong understanding of the underpinning principles of visual design and typography; and applying this knowledge forward into …user experience design…2011CPPIBCPPIB is the investment arm of the Canada Pension Plan, tasked with investing the assets not currently needed for payouts. I was on the data management team helping to build technical solutions that would improve investor insights.2008State Street Bank & TrustState Street is a global provider of financial services to institutional investors; as a data analyst I helped to ensure the timeliness and completeness of our client’s data deliverables.2004University of Western OntarioBachelor’s of Business Studies, Specialization in Finance & Administration.
