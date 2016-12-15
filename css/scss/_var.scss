@@ -9,11 +9,48 @@ $vibe-purple: rgba(110, 95, 200,1);
 $white: rgba(255, 255, 255, 1);
 $Coral: rgba(225, 55, 50, 1);
 $med-grey: rgba(135, 135, 135, 1);
+$rich-black: rgba(35, 35, 35, 1);
 
 //font stacks
-$body-font: 'Native-Regular', Arial, Helvetica, sans-serif; //Laurentian-STD
-$display-font: 'Native-Regular', Arial, Helvetica, cursive; //Harpers-Grotesk
-$gen-font: Arial, Helvetica, sans-serif; //Sofia-Pro
+//Google Placeholders: font-family: 'Droid Serif', serif;
+//Google Placeholders: font-family: 'Poppins', sans-serif;
+//Google Placeholders: font-family: 'Work Sans', sans-serif;
+
+
+$body-font: 'Droid Serif', serif; //Laurentian-STD
+$display-font: 'Work Sans', cursive; //Harpers-Grotesk
+$gen-font: 'Poppins', helvetica, sans-serif;; //Sofia-Pro
+
+
+
+h1 {}
+
+h2 {}
+
+h3 {}
+
+h4 {}
+
+h5 {}
+
+h6 {
+  font-family: $gen-font;
+  font-size: 1.25em;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+
+//text properties, written articles
+body {}
+
+
+//Border styles, line framework
+$hairline: 1px solid rgba(255, 255, 255, 0.1);
+
+@mixin span-indicator {
+
+}
+
 
 
 //Apply mixin to parent class.

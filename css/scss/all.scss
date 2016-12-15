@@ -14,8 +14,15 @@ Global Styles
 ===========================================
 */
 
+body {
+  background-color: $white;
+  color: $rich-black;
 
-
+}
+    .dark {//for home page only; colors background.
+      background-color: $deep-purpple;
+      color: $white;
+    }
 
 
 
@@ -23,3 +30,28 @@ Global Styles
 Specific Element Styles
 ===========================================
 */
+
+
+/* ================== Header ========================= */
+      header {
+        height: 80px;
+        margin-bottom: 60px; //temporary pushdown
+        border-bottom: $hairline;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .icon {
+          width: 85px;
+          margin-top: 15px;
+      }
+
+      .mobile-pg {
+        display: flex;
+      }
+
+      .pg-title {
+
+      }
+      

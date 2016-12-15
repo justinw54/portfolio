@@ -1,3 +1,9 @@
+h6 {
+  font-family: "Poppins", helvetica, sans-serif;
+  font-size: 1.25em;
+  text-transform: uppercase;
+  margin-top: 15px; }
+
 a:hover {
   text-shadow: 2px 2px 5px #6e5fc8; }
 
@@ -12,13 +18,142 @@ a:hover {
 .btn:hover:before {
   transform: translate3d(0.35rem, -0.35rem, -1em); }
 
+.menu-mobile {
+  margin: 40px;
+  padding: 10px 35px 16px 0; }
+  .menu-mobile span, .menu-mobile span:before, .menu-mobile span:after {
+    cursor: pointer;
+    border-radius: 1px;
+    height: 5px;
+    width: 35px;
+    background: white;
+    position: absolute;
+    display: block;
+    content: ''; }
+  .menu-mobile span:before {
+    top: -10px; }
+  .menu-mobile span:after {
+    bottom: -10px; }
+
+/*
+//Hamburger menu code, mobile-only
+.overlay-menu {
+  //mobile
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0);
+  z-index: 2;
+
+  .menu-mobile { //icon design
+        //cursor: help;
+        padding: 10px 35px 16px 0;
+
+        position: relative;
+        float: left;
+        margin: 40px;
+
+        //Draw menu using pseudo-elements
+        span, span:before, span:after {
+          cursor: pointer;
+          border-radius: 1px;
+          height: 5px;
+          width: 35px;
+          background: white;
+          position: absolute;
+          display: block;
+          content: '';
+        }
+        span:before {
+          top: -10px;
+        }
+        span:after {
+          bottom: -10px;
+        }
+      }
+
+  .menu-list { //hide menu list
+    display: none;
+  }
+
+
+
+  @media screen and (min-width: 40em) {
+      display: none;
+
+      .menu-mobile {
+        display: none;
+      }
+      .menu-list { //menu display on tablets +
+        display: block;
+        float: left;
+        list-style-type: none;
+
+        margin-top: 25px;
+        margin-right: 40px;
+
+          h3 {//custom type adjustments
+            font-weight: 500;
+            font-size: 1.2em;
+            padding: 0.35em 0 0 0;
+          }
+
+      }
+
+  }
+}
+
+  .active .overlay-menu { //on click
+
+    transition: all 0.2s ease;
+    background-color: rgba(0,0,0,0.9);
+
+          .menu-list { //display on center
+            display: block;
+
+            transition: all 0.4s ease;
+            padding: 0;
+            list-style-type: none;
+
+            text-align: center;
+            margin-top: 35%;
+
+          }
+    }
+*/
 /* ========================================
 Global Styles
 ===========================================
 */
+body {
+  background-color: white;
+  color: #232323; }
+
+.dark {
+  background-color: #19121e;
+  color: white; }
+
 /* ========================================
 Specific Element Styles
 ===========================================
 */
+/* ================== Header ========================= */
+header {
+  height: 80px;
+  margin-bottom: 60px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.icon {
+  width: 85px;
+  margin-top: 15px; }
+
+.mobile-pg {
+  display: flex; }
 
 /*# sourceMappingURL=all.css.map */
