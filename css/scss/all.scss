@@ -24,7 +24,12 @@ body {
       color: $white;
     }
 
-
+  .whiteline {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .greyline {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
 
 /* ========================================
 Specific Element Styles
@@ -33,25 +38,99 @@ Specific Element Styles
 
 
 /* ================== Header ========================= */
+
+
       header {
-        height: 80px;
-        margin-bottom: 60px; //temporary pushdown
-        border-bottom: $hairline;
+        padding-top: 10px;
         display: flex;
         justify-content: space-between;
         align-items: center;
       }
 
-      .icon {
-          width: 85px;
-          margin-top: 15px;
+      //common width class
+      .third {
+        width: 33%;
+        display: inline-block;
       }
 
-      .mobile-pg {
-        display: flex;
+      //A-- MENU ICON
+      //see _interactive for overlay, desktop menu
+      /*.menu-mobile {
+          position: relative;
+          margin: 25px;
+          padding: 10px 35px 16px 0;
+
+            span, span:before, span:after {
+                  cursor: pointer;
+                  border-radius: 1px;
+                  height: 5px;
+                  width: 35px;
+                  background: white; //TODO change to grey, other pages
+                  position: absolute;
+                  display: block;
+                  content: '';
+                }
+                span:before {
+                  top: -10px;
+                }
+                span:after {
+                  bottom: -10px;
+                }
+
+            }*/
+      .menu-list {
+            a {
+              color: $white;
+            }
+            h3 {
+              font-family: $gen-font;
+              font-size: 1.8em;
+            }
       }
 
-      .pg-title {
+      //B -- title
+      .mobile-title h6 {
+            text-align: center;
+      }
+
+      //B -- highlight-underline
+      .mobile-title:after {
+          height: 8px;
+          width: 100%;
+          background-color: $coral;//TODO change to purple, other pages
+          content: '';
+          display: block;
 
       }
-      
+
+      //C -- icon
+      .mobile-icon {
+            svg {
+              width: 45px;
+              float: right;
+              margin-top: 10px;
+            }
+      }
+
+      @media screen and (min-width: 40em) {
+
+        .menu-mobile,
+        .mobile-placeholder,
+        .mobile-title h6,
+        .mobile-title:after {
+          display: none;
+        }
+
+        .lrg-reverse {
+          display: flex;
+          flex-direction: row-reverse;
+        }
+        .mobile-icon svg {
+          float: left;
+        }
+
+      }
+
+
+
+/* ================ END ==================== */
