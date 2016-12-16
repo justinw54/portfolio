@@ -3,70 +3,20 @@
 
 //All Hover
 
+a {
+  color:inherit;
+}
 a:hover {
-  text-shadow: 2px 2px 5px $vibe-purple;
+  color: $vibe-purple;
 }
 
-
-.btn:hover {
-    //translate mixin (stack)
-    transform: translate(-0.35em, 0.35em);
-    transform-style: preserve-3d;
-
-    cursor: pointer;
-    background-color: $vibe-purple;
-    color: #fff;
-    border: 2px solid #fff;
+.underline {
+  display: inline-block;
 }
-.btn:hover:before {
-  transform: translate3d(0.35rem, -0.35rem, -1em);
+.underline:after {
+  height: 8px;
+  width: 100%;
+  background-color: $coral;//TODO change to purple, other pages
+  content: '';
+  display: block;
 }
-
-
-//Hamburger menu code, mobile-only
-.overlay-menu {
-  //mobile
-
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background-color: rgba(0,0,0,0);
-  z-index: 2;
-
-  .menu-list { //hide menu list
-    display: none;
-  }
-
-  @media screen and (min-width: 40em) {
-    position: relative;
-
-    .menu-list {
-      display: flex;
-      justify-content: space-between;
-      list-style-type: none;
-    }
-  }
-}
-
-  .active .overlay-menu { //on click
-
-    display: block;
-    transition: all 0.2s ease;
-    background-color: rgba(0,0,0,0.9);
-
-
-          .menu-list { //display on center
-            display: block;
-
-            transition: all 0.4s ease;
-            padding: 0;
-            list-style-type: none;
-
-            text-align: center;
-            margin-top: 35%;
-
-          }
-    }

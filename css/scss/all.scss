@@ -24,10 +24,10 @@ body {
       color: $white;
     }
 
-  .whiteline {
+  .white-hairline {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
-  .greyline {
+  .grey-hairline {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   }
 
@@ -37,100 +37,105 @@ Specific Element Styles
 */
 
 
-/* ================== Header ========================= */
+/* ================ Header ==================== */
+  header {
+    padding-top: 15px;
+  }
 
-
-      header {
-        padding-top: 10px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-      }
-
-      //common width class
-      .third {
-        width: 33%;
-        display: inline-block;
-      }
-
-      //A-- MENU ICON
-      //see _interactive for overlay, desktop menu
-      /*.menu-mobile {
-          position: relative;
-          margin: 25px;
-          padding: 10px 35px 16px 0;
-
-            span, span:before, span:after {
-                  cursor: pointer;
-                  border-radius: 1px;
-                  height: 5px;
-                  width: 35px;
-                  background: white; //TODO change to grey, other pages
-                  position: absolute;
-                  display: block;
-                  content: '';
-                }
-                span:before {
-                  top: -10px;
-                }
-                span:after {
-                  bottom: -10px;
-                }
-
-            }*/
-      .menu-list {
-            a {
-              color: $white;
-            }
-            h3 {
-              font-family: $gen-font;
-              font-size: 1.8em;
-            }
-      }
-
-      //B -- title
-      .mobile-title h6 {
-            text-align: center;
-      }
-
-      //B -- highlight-underline
-      .mobile-title:after {
-          height: 8px;
-          width: 100%;
-          background-color: $coral;//TODO change to purple, other pages
-          content: '';
-          display: block;
-
-      }
-
-      //C -- icon
-      .mobile-icon {
-            svg {
-              width: 45px;
-              float: right;
-              margin-top: 10px;
-            }
-      }
-
-      @media screen and (min-width: 40em) {
-
-        .menu-mobile,
-        .mobile-placeholder,
-        .mobile-title h6,
-        .mobile-title:after {
-          display: none;
-        }
-
-        .lrg-reverse {
-          display: flex;
-          flex-direction: row-reverse;
-        }
-        .mobile-icon svg {
+  .mobile-icon {
+        svg {
+          width: 45px;
           float: left;
         }
+  }
+
+    @media screen and (min-width: 40em) {
+      ul {
+        display: block;
+      }
+    }
+
+/* ================ HERO ==================== */
+
+  #hero {
+    padding: 8rem 0 6rem 0;
+
+    h1 {
+      margin: 10px 0 60px 0;
+    }
+  }
+
+
+/* ================ Latest Work ==================== */
+
+    #latest {
+      padding: 2rem 0 2rem 0;
+    }
+
+    .gallery {
+      h3 {
+        padding: 1.75rem 0 0.5rem 0.475rem;
+      }
+      h6 {
+        padding: 0.75rem 0 0 0.475rem;
+        opacity: .35;
+        font-size: 0.75em;
+        text-transform: none;
+      }
+
+      img {
+        height: auto;
+        width: 100%;
+      }
+    }
+
+    .cards {
+      border-left: 1px solid rgba(255, 255, 255, 0.1);
+      border-right: 1px solid rgba(255, 255, 255, 0.1);
+      padding-bottom: 3rem;
+    }
+
+
+
+/* ================ Footer ==================== */
+
+      footer {
+          padding: 3rem 0 6rem 0;
+          text-align: center;
+
+          font-family: $gen-font;
+          font-size: 0.9em;
+
+          svg {
+            width: 4rem;
+          }
+      }
+
+      .social-media {
+        width: 100%;
+        margin-top: 0.45rem;
+
+        div {
+          position: relative;
+          float: left;
+          width: 25%;
+
+        }
+      }
+
+      .toggle {
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        margin-top: 1.5rem;
+
+        svg {
+          height: 75%;
+          width: auto;
+          }
 
       }
 
-
-
-/* ================ END ==================== */
+      .underline2 {
+        border-bottom: 8px solid $coral;
+      }
