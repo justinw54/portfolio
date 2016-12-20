@@ -206,18 +206,32 @@ Specific Element Styles
   height: auto; }
 
 .the-port-gif {
-  width: auto;
-  height: 220px;
+  height: auto;
+  width: 240px;
+  display: block;
   margin: 0 auto;
   -webkit-box-shadow: 2px 2px 5px -1px rgba(0, 0, 0, 0.6);
   -moz-box-shadow: 2px 2px 5px -1px rgba(0, 0, 0, 0.6);
   box-shadow: 2px 2px 5px -1px rgba(0, 0, 0, 0.6); }
   @media screen and (min-width: 40em) {
     .the-port-gif {
-      height: 460px; } }
+      width: 320px; } }
 
 .text-area-padding {
   padding-top: 2.5rem;
   padding-bottom: 4rem; }
+
+/* ================ ABOUT ==================== */
+.about-bio-picture {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  height: auto;
+  border-radius: 50%; }
+  @media screen and (min-width: 40em) {
+    .about-bio-picture {
+      width: 75%;
+      margin: 0; } }
 
 /*# sourceMappingURL=all.css.map */
