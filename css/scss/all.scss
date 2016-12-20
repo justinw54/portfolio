@@ -27,9 +27,100 @@ body {
   .white-hairline {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
-  .grey-hairline {
+  .btm-grey-hairline {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   }
+
+  .page-title {
+    padding: 2rem 0 2rem 0;
+  }
+
+  /* ================ Header ==================== */
+    header {
+      padding-top: 15px;
+    }
+
+    .mobile-icon {
+          svg {
+            width: 45px;
+            float: left;
+          }
+    }
+
+      @media screen and (min-width: 40em) {
+        ul {
+          display: block;
+        }
+      }
+
+
+
+
+
+  /* ================ Footer ==================== */
+
+      footer {
+          padding: 3rem 0 6rem 0;
+          text-align: center;
+
+          font-family: $gen-font;
+          font-size: 0.9em;
+
+          color: $med-grey;
+
+          svg {
+            width: 4rem;
+          }
+      }
+
+      .footer-copyright {
+        text-align: center;
+        padding: 1rem 0 0.5rem 0;
+      }
+
+      .footer-media-links {
+        display: flex;
+        justify-content: center;
+
+        a {
+          display: inline-block;
+          margin: 0 0.75rem;
+          font-size: 0.75em;
+          }
+      }
+
+      .footer-arrows {
+        display: flex;
+
+        svg {
+          height: 2rem;
+          width: auto;
+          padding-bottom: 12px;
+          }
+
+      }
+
+      .align-right {
+        justify-content: flex-end;
+
+        div {
+          border-bottom: 8px solid $coral;
+        }
+      }
+
+      .col-switch {
+        order: 0;
+      }
+
+      @media screen and (min-width: 40em) {
+        .footer-media-links {
+          display: inline-block;
+        }
+
+        .col-switch {
+          order: -1;
+        }
+      }
 
 /* ========================================
 Specific Element Styles
@@ -37,25 +128,9 @@ Specific Element Styles
 */
 
 
-/* ================ Header ==================== */
-  header {
-    padding-top: 15px;
-  }
 
-  .mobile-icon {
-        svg {
-          width: 45px;
-          float: left;
-        }
-  }
 
-    @media screen and (min-width: 40em) {
-      ul {
-        display: block;
-      }
-    }
-
-/* ================ HERO ==================== */
+/* ================ HOMEPAGE /hero ==================== */
 
   #hero {
     padding: 8rem 0 6rem 0;
@@ -66,11 +141,9 @@ Specific Element Styles
   }
 
 
-/* ================ Latest Work ==================== */
+/* ================ HOMEPAGE /Latest Work ==================== */
 
-    #latest {
-      padding: 2rem 0 2rem 0;
-    }
+
 
     .gallery {
       h3 {
@@ -78,7 +151,7 @@ Specific Element Styles
       }
       h6 {
         padding: 0.75rem 0 0 0.475rem;
-        opacity: .35;
+        opacity: .65;
         font-size: 0.75em;
         text-transform: none;
       }
@@ -89,53 +162,48 @@ Specific Element Styles
       }
     }
 
-    .cards {
-      border-left: 1px solid rgba(255, 255, 255, 0.1);
-      border-right: 1px solid rgba(255, 255, 255, 0.1);
+
+    .latest-cards {
+      border-left: 1px solid rgba(255, 255, 255, 0.1);//swap for formula -> if white/else grey
       padding-bottom: 3rem;
+    }
+    .latest-hairline {
+      border-right: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+
+/* ================ WORK /All Work ==================== */
+
+
+    .projects-cards {
+      border-left: 1px solid rgba(0, 0, 0, 0.1);
+      padding-bottom: 3rem;
+    }
+    .projects-hairline {
+      border-right: 1px solid rgba(0, 0, 0, 0.1);
     }
 
 
 
-/* ================ Footer ==================== */
+/* ================ PROJECT PAGES /all ==================== */
 
-      footer {
-          padding: 3rem 0 6rem 0;
-          text-align: center;
+  .the-port > img {
+    width: 100%;
+    height: auto;
+  }
+  .the-port-gif {
+    width: auto;
+    height: 220px;
+    margin: 0 auto;
+    @include shadow;
 
-          font-family: $gen-font;
-          font-size: 0.9em;
+    @media screen and (min-width: 40em) {
+      height: 460px;
+    }
+  }
 
-          svg {
-            width: 4rem;
-          }
-      }
 
-      .social-media {
-        width: 100%;
-        margin-top: 0.45rem;
-
-        div {
-          position: relative;
-          float: left;
-          width: 25%;
-
-        }
-      }
-
-      .toggle {
-        height: 3rem;
-        display: flex;
-        align-items: center;
-        margin-top: 1.5rem;
-
-        svg {
-          height: 75%;
-          width: auto;
-          }
-
-      }
-
-      .underline2 {
-        border-bottom: 8px solid $coral;
-      }
+  .text-area-padding {
+    padding-top: 2.5rem;
+    padding-bottom: 4rem;
+  }
