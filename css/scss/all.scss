@@ -223,6 +223,39 @@ Specific Element Styles
 
       @media screen and (min-width: 40em) {
         width: 75%;
+        max-width: 240px;
         margin: 0;
       }
     }
+
+    .about-timeline-entry {
+      margin-bottom: 2rem;
+      display: flex;
+    }
+
+    //Images; customized css
+      .about-ysdn {
+        height: 100px;
+      }
+      .about-cppib {
+        height: 60px;
+      }
+      .about-state-street {
+        height: 180px;
+      }
+      .about-uwo {
+        height: 180px;
+      }
+
+      .connect-detail {
+        display: flex;
+        align-items: center;
+        margin-top: 1.75rem;
+
+        @media screen and (min-width: 40em) {
+          margin-top: 0;
+        }
+      }
+      .connect-indicator {
+          border-bottom: 8px solid $vibe-purple;
+      }

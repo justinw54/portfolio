@@ -133,6 +133,7 @@ body {}
 
 
 //Apply mixin to parent class.
+//child div must include class "content"
 @mixin aspect-ratio($width, $height) {
   position: relative;
   &:before {
