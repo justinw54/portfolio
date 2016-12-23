@@ -24,11 +24,20 @@ body {
       color: $white;
     }
 
+      //hairlines
   .white-hairline {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
   .btm-grey-hairline {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+      //indicator bars
+  .coral-span {
+    border-bottom: 8px solid $coral;
+  }
+  .purple-span {
+    border-bottom: 8px solid $vibe-purple;
   }
 
   .page-title {
@@ -75,18 +84,29 @@ body {
 
       .footer-copyright {
         text-align: center;
-        padding: 1rem 0 0.5rem 0;
+        padding: 1rem 0 0.35rem 0;
       }
 
       .footer-media-links {
         display: flex;
         justify-content: center;
+        margin-bottom: 2.5rem;
 
+        //mobile sizes
         a {
           display: inline-block;
           margin: 0 0.75rem;
-          font-size: 0.75em;
+          font-size: 1.1em;
           }
+
+        @media screen and (min-width: 40em) {
+          margin-bottom: 0;
+
+          a {
+            font-size: 0.75em;
+            margin: 0 0.5rem; 
+          }
+        }
       }
 
       .footer-arrows {
@@ -102,10 +122,6 @@ body {
 
       .align-right {
         justify-content: flex-end;
-
-        div {
-          border-bottom: 8px solid $coral;
-        }
       }
 
       .col-switch {
@@ -140,9 +156,12 @@ Specific Element Styles
     }
   }
 
+  .home-connect {
+    display: inline-block;
+  }
+
 
 /* ================ HOMEPAGE /Latest Work ==================== */
-
 
 
     .gallery {
@@ -161,7 +180,6 @@ Specific Element Styles
         width: 100%;
       }
     }
-
 
     .latest-cards {
       border-left: 1px solid rgba(255, 255, 255, 0.1);//swap for formula -> if white/else grey

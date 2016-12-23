@@ -9,14 +9,3 @@ a {
 a:hover {
   color: $vibe-purple;
 }
-
-.underline {
-  display: inline-block;
-}
-.underline:after {
-  height: 8px;
-  width: 100%;
-  background-color: $coral;//TODO change to purple, other pages
-  content: '';
-  display: block;
-}
