@@ -15,13 +15,17 @@ h3 {
   font-size: 1.25em;
   line-height: 1.25em; }
 
+h4 {
+  font-family: "Poppins", helvetica, sans-serif;
+  font-size: 0.85em; }
+
 h5 {
   font-family: "Poppins", helvetica, sans-serif;
   font-size: 1.15em; }
 
 h6 {
   font-family: "Poppins", helvetica, sans-serif;
-  font-size: 0.85em;
+  font-size: 0.95em;
   text-transform: uppercase; }
 
 p {
@@ -44,8 +48,12 @@ p {
 
   h3 {
     font-family: "Poppins", helvetica, sans-serif;
-    font-size: 1.0em;
+    font-size: 0.9em;
     line-height: 1.25em; }
+
+  h4 {
+    font-family: "Poppins", helvetica, sans-serif;
+    font-size: 1.15em; }
 
   h5 {
     font-family: "Poppins", helvetica, sans-serif;
@@ -53,7 +61,7 @@ p {
 
   h6 {
     font-family: "Poppins", helvetica, sans-serif;
-    font-size: 1.15em;
+    font-size: 0.75em;
     text-transform: uppercase; }
 
   body {
@@ -68,12 +76,23 @@ p {
   h3 {
     font-size: 1.25em; }
 
+  h6 {
+    font-size: 1.0em; }
+
   p {
     font-family: "Droid Serif", serif;
     font-size: 1.25em;
     line-height: 1.85em; } }
 a {
   color: inherit; }
+
+.borders-white:hover {
+  border: 1px solid #e13732;
+  box-shadow: -9px 9px 0 #e13732; }
+
+.borders-black:hover {
+  border: 1px solid #6e5fc8;
+  box-shadow: -9px 9px 0 #6e5fc8; }
 
 body.dark a {
   color: white; }
@@ -89,10 +108,6 @@ body a:hover {
 Global Styles
 ===========================================
 */
-body {
-  background-color: white;
-  color: #232323; }
-
 .dark {
   background-color: #19121e;
   color: white; }
@@ -100,14 +115,24 @@ body {
 .coral-span {
   border-bottom: 8px solid #e13732; }
 
+.hairlines-white {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25); }
+
+.borders-white {
+  border: 1px solid rgba(255, 255, 255, 0.25); }
+
+body {
+  background-color: white;
+  color: #232323; }
+
 .purple-span {
   border-bottom: 8px solid #6e5fc8; }
 
-.hairlines-white {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
-
 .hairlines-black {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25); }
+
+.borders-black {
+  border: 1px solid rgba(0, 0, 0, 0.25); }
 
 .page-title {
   padding: 2rem 0 2rem 0; }
@@ -137,37 +162,6 @@ header ul {
     position: absolute;
     transition: left 0.25s, width 0.25s; }
 
-  /*
-    header {
-      padding-top: 15px;
-      display: flex;
-      align-items: center;
-    }
-
-    .mobile-icon {
-          svg {
-            width: 45px;
-            float: left;
-          }
-    }
-    .mobile-icon-2 {
-      font-size: 1.12em;
-      font-family: $display-font;
-      color: #fff;
-      line-height: 1em;
-
-      span {
-        letter-spacing: 0.035em;
-      }
-    }
-
-
-      @media screen and (min-width: 40em) {
-        ul {
-          display: block;
-        }
-      }
-  */
 /* ================ Footer ==================== */
 footer {
   padding: 3rem 0 6rem 0;
@@ -221,7 +215,7 @@ Specific Element Styles
 */
 /* ================ HOMEPAGE /hero ==================== */
 #hero {
-  padding: 8rem 0 6rem 0; }
+  padding: 8rem 0 10rem 0; }
   #hero h1 {
     margin: 10px 0 60px 0; }
 
@@ -229,19 +223,30 @@ Specific Element Styles
   display: inline-block; }
 
 /* ================ WORK / All ==================== */
-.gallery h3 {
-  padding: 1.75rem 0 0.5rem 0.475rem; }
-.gallery h6 {
-  padding: 0.75rem 0 0 0.475rem;
-  opacity: .65;
-  font-size: 0.75em;
-  text-transform: none; }
-.gallery img {
-  height: auto;
-  width: 100%; }
+.gallery {
+  margin-top: 4.5rem;
+  padding-bottom: 6rem; }
+  .gallery img {
+    height: auto;
+    width: 100%; }
 
 .projects-cards {
-  padding-bottom: 3rem; }
+  padding-bottom: 2.75rem;
+  margin-bottom: 3rem;
+  transition: all 0.25s; }
+
+.project-cards-title {
+  padding-top: 1.5rem; }
+
+.project-cards-deck {
+  text-transform: none;
+  padding-top: 1.75em; }
+
+.project-cards-caption {
+  padding-top: 1.25rem;
+  opacity: .45; }
+  .project-cards-caption h6 {
+    margin-bottom: 0; }
 
 /* ================ PROJECT PAGES /all ==================== */
 .the-port > img {

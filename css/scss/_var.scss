@@ -4,7 +4,7 @@
 
 //Colors in use:
 $black: rgba(0,0,0,1);
-$deep-purpple: rgba(25, 18, 30,1);
+$deep-purple: rgba(25, 18, 30,1);
 //$deep-purpple: rgba(35,20,65,1);
 $vibe-purple: rgba(110, 95, 200,1);
 $white: rgba(255, 255, 255, 1);
@@ -38,22 +38,26 @@ h2 {
   line-height: 1em;
 }
 
-h3 {
+h3 {//project card titles
   font-family: $gen-font;
   font-size: 1.25em;
   line-height: 1.25em;
 }
 
-h4 {}
+h4 {//deck, project cards
+  font-family: $gen-font;
+  font-size: 0.85em;
+
+}
 
 h5 {
   font-family: $gen-font;
   font-size: 1.15em;
 }
 
-h6 {
+h6 {//captions, sub-titles on PROJECT pages
   font-family: $gen-font;
-  font-size: 0.85em;
+  font-size: 0.95em;
   text-transform: uppercase;
 }
 
@@ -82,13 +86,16 @@ body {}
     line-height: 1em;
   }
 
-  h3 {
+  h3 { //project-card titles
     font-family: $gen-font;
-    font-size: 1.0em;
+    font-size: 0.9em;
     line-height: 1.25em;
   }
 
-  h4 {}
+  h4 {
+    font-family: $gen-font;
+    font-size: 1.15em;
+  }
 
   h5 {
     font-family: $gen-font;
@@ -97,7 +104,7 @@ body {}
 
   h6 {
     font-family: $gen-font;
-    font-size: 1.15em;
+    font-size: 0.75em;
     text-transform: uppercase;
   }
 
@@ -117,6 +124,9 @@ body {}
 @media screen and (min-width: 55em) {
   h3 {
     font-size: 1.25em;
+  }
+  h6 {
+    font-size: 1.0em;
   }
   p {
     font-family: $body-font;
