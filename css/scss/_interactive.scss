@@ -6,6 +6,27 @@
 a {
   color:inherit;
 }
-a:hover {
-  color: $vibe-purple;
+
+body.dark {
+
+  a {
+    color: $white;
+  }
+
+  a:hover {
+    color: $coral;
+  }
+
+}
+
+
+body {
+
+  a {
+    color: $med-grey;
+  }
+
+  a:hover {
+    color: $vibe-purple;
+  }
 }

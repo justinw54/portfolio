@@ -32,7 +32,7 @@ p {
 @media screen and (min-width: 40em) {
   h1 {
     font-family: "Work Sans", cursive;
-    font-size: 4.5em;
+    font-size: 3.25em;
     letter-spacing: -0.05em;
     line-height: 1em; }
 
@@ -75,7 +75,14 @@ p {
 a {
   color: inherit; }
 
-a:hover {
+body.dark a {
+  color: white; }
+body.dark a:hover {
+  color: #e13732; }
+
+body a {
+  color: #878787; }
+body a:hover {
   color: #6e5fc8; }
 
 /* ========================================
@@ -96,20 +103,71 @@ body {
 .purple-span {
   border-bottom: 8px solid #6e5fc8; }
 
+.hairlines-white {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+
+.hairlines-black {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+
 .page-title {
   padding: 2rem 0 2rem 0; }
 
 /* ================ Header ==================== */
-header {
-  padding-top: 15px; }
+header ul {
+  margin: 0;
+  margin-top: 1rem; }
+  header ul li {
+    display: inline-block;
+    padding: 0.75rem;
+    list-style: none;
+    font-size: 0.85rem; }
+    @media screen and (min-width: 40em) {
+      header ul li {
+        font-size: 1.05rem; } }
+  header ul .header-logo {
+    line-height: 110%; }
+  header ul a {
+    display: block;
+    text-decoration: none;
+    transition: color 0.25s; }
+  header ul span {
+    background-color: #e13732;
+    display: block;
+    height: 8px;
+    position: absolute;
+    transition: left 0.25s, width 0.25s; }
 
-.mobile-icon svg {
-  width: 45px;
-  float: left; }
+  /*
+    header {
+      padding-top: 15px;
+      display: flex;
+      align-items: center;
+    }
 
-@media screen and (min-width: 40em) {
-  ul {
-    display: block; } }
+    .mobile-icon {
+          svg {
+            width: 45px;
+            float: left;
+          }
+    }
+    .mobile-icon-2 {
+      font-size: 1.12em;
+      font-family: $display-font;
+      color: #fff;
+      line-height: 1em;
+
+      span {
+        letter-spacing: 0.035em;
+      }
+    }
+
+
+      @media screen and (min-width: 40em) {
+        ul {
+          display: block;
+        }
+      }
+  */
 /* ================ Footer ==================== */
 footer {
   padding: 3rem 0 6rem 0;
