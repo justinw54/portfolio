@@ -38,101 +38,111 @@ h2 {
   line-height: 1em;
 }
 
-h3 {//project card titles
+h3 {//titles (project cards)
   font-family: $gen-font;
   font-size: 1.25em;
   line-height: 1.25em;
 }
 
-h4 {//deck, project cards
+h4 {//deck (project cards)
   font-family: $gen-font;
   font-size: 0.85em;
-
 }
 
-h5 {
-  font-family: $gen-font;
-  font-size: 1.15em;
+h5 { //Sub-headings (project PAGES)
+  font: {
+    family: $display-font;
+    size: 1.05em;
+  }
+  margin-top: 1.75em;
 }
 
 h6 {//captions, sub-titles on PROJECT pages
-  font-family: $gen-font;
-  font-size: 0.95em;
+  font: {
+    family: $gen-font;
+    size: 1.15em;
+  }
   text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-top: 2rem;
+  margin-bottom: 2.5em;
+
 }
 
 p {
   font-family: $body-font;
-  font-size: 1.15em;
+  font-size: 1.05em;
   line-height: 1.8em;
 }
 
-body {}
+body { //default text
+  font-family: $gen-font;
+  font-size: 1em;
+}
+
+  //footnote styles.
+.footnote-style {
+  font: {
+    family: $body-font;
+    size: 0.85em;
+  }
+  line-height: 1.45em;
+}
+
+  //header link styles.
+header ul li {
+  font: {
+    family: $gen-font;
+    size: 0.85em;
+  }
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
 
 
-//tablet, desktop text properties
+
+//TABLET
 @media screen and (min-width: 40em) {
-  h1 {
-    font-family: $display-font;
-    font-size: 3.25em;
-    letter-spacing: -0.05em;
-    line-height: 1em;
-  }
+      h1 { font-size: 3.25em; }
 
-  h2 {
-    font-family: $display-font;
-    font-size: 3em;
-    letter-spacing: -0.05em;
-    line-height: 1em;
-  }
+      h2 { font-size: 3em; }
 
-  h3 { //project-card titles
-    font-family: $gen-font;
-    font-size: 0.9em;
-    line-height: 1.25em;
-  }
+      h3 { font-size: 0.9em; }
 
-  h4 {
-    font-family: $gen-font;
-    font-size: 1.15em;
-  }
+      h4 { font-size: 1.15em; }
 
-  h5 {
-    font-family: $gen-font;
-    font-size: 1.25em;
-  }
+      h5 { font-size: 1.1em; }
 
-  h6 {
-    font-family: $gen-font;
-    font-size: 0.75em;
-    text-transform: uppercase;
-  }
+      h6 { font-size: 0.95em;
+      margin-top: 0;
+      margin-bottom: 0; }
 
+      p {
+        font-size: 0.95em;
+      }
+      .footnote-style { font-size: 0.75em; }
 
-  body { //default text
-    font-family: $gen-font;
-    font-size: 1em;
-  }
-  p {
-    font-family: $body-font;
-    font-size: 1em;
-    line-height: 1.8em;
-  }
+      header ul li { font-size: 0.95em; }
 
 }
 
+
+//DESKTOP
 @media screen and (min-width: 55em) {
-  h3 {
-    font-size: 1.25em;
-  }
-  h6 {
-    font-size: 1.0em;
-  }
+  h3 { font-size: 1.25em; }
+
+  h5 { font-size: 1.15em; }
+
+  h6 { font-size: 1.25em; }
+
   p {
-    font-family: $body-font;
-    font-size: 1.25em;
+    font-size: 1.15em;
     line-height: 1.85em;
   }
+
+  .footnote-style { font-size: 0.85em; }
+
+  header ul li { font-size: 1.05em; }
 }
 
 

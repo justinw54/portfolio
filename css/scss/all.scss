@@ -73,17 +73,20 @@ Global Styles
       li {
         display: inline-block;
         padding: 0.75rem;
-
         list-style: none;
-        font-size: 0.85rem;
+        //type styles stored in _var.scss
 
-        @media screen and (min-width: 40em) {
-          font-size: 1.05rem;
-        }
       }
 
       .header-logo {
+        font-size: 0.95em;
         line-height: 110%;
+        text-transform: capitalize;
+        text-align: center;
+
+        @media screen and (min-width: 55em) {
+          font-size: 1.05em;
+        }
       }
 
       a {
@@ -194,6 +197,10 @@ Specific Element Styles
     h1 {
       margin: 10px 0 60px 0;
     }
+    a {
+      font-family: $gen-font;
+      font-size: 1.15em;
+    }
   }
 
   .home-connect {
@@ -264,9 +271,14 @@ Specific Element Styles
   }
 
 
-  .text-area-padding {
-    padding-top: 2.5rem;
-    padding-bottom: 4rem;
+  .text-area-padding { //mobile
+    padding-top: 1.25rem;
+    padding-bottom: 3rem;
+
+    @media screen and (min-width: 40em) {
+      padding-top: 2.5rem;
+      padding-bottom: 4rem;
+    }
   }
 
 
