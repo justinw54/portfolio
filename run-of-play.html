@@ -15,6 +15,7 @@
 
     <title>The Run of Play</title>
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="img/FavIcon-purple.png">
 
     <!-- stylesheets -->
     <link rel="stylesheet" href="css/foundation.min.css">
@@ -57,8 +58,8 @@
     </div>
 
 
-
-    <div class="row small-collapse project-pages hairlines-black"><!-- remove gutters with collapse -->
+  <div class="hairlines-black">
+    <div class="row small-collapse project-pages"><!-- remove gutters with collapse -->
       <div class="columns">
 
 
@@ -69,21 +70,26 @@
               <!-- Text area -->
               <div class="row text-area-padding">
                       <div class="small-12 medium-4 columns"><!-- section title -->
-                          <h6 class="invisible"></h6>
+                          <h6>Overview</h6>
                       </div>
 
                       <div class="small-12 medium-8 columns"><!-- section body -->
 
-                        <p>Building on research put together by a former colleague,
-                        I looked at technology&#8217;s role in youth sport leagues as
-                        the topic for an in-class interactivity project.</p>
+                        <p>The Run of Play is a prototype for a youth sports league
+                          group messaging/social platform mobile application.</p>
 
-                        <p>The aim was to research market opportunities, and address
-                        those opportunities with a mobile application.</p>
+                        <p>The purpose of the app is to provide a space for team
+                          participants to communicate, as well as a greater environment
+                          for the community to follow and interact with teams.
+                          This prototype was designed for an in-class interactivity
+                          project, and built on research put together by a former
+                          colleague.</p>
 
-                        <p>Beginning with a straight forward question; how might we
-                        improve the youth sports team experience for the various
-                        stakeholders using available technology?</p>
+                        <p>I began with the question &ldquo;how might we improve
+                          the youth sports team experience for different stakeholders
+                          using available technology?&rdquo; I then set out to
+                          research market opportunities, and address those
+                          opportunities with a mobile app.</p>
 
                       </div>
               </div>
@@ -116,25 +122,27 @@
               <!-- Text area -->
               <div class="row text-area-padding">
                       <div class="small-12 medium-4 columns"><!-- section title -->
-                          <h6>People, Action, Context, Technology (PACT) Analysis</h6>
+                          <h6 id="pact">People, Action, Context, Technology (PACT) Analysis</h6>
                       </div>
 
                       <div class="small-12 medium-8 columns"><!-- section body -->
 
-                        <p>We would be designing for a wide range of individuals, of
-                        different ages, sizes, etc.</p>
+                        <p>Assuming parents as primary users, their contexts-of-use would
+                        be busy, with a degree of stress having just finished work
+                        and needing to head to a game or practice. It would be
+                        rare if 100% of their attention were captured by the
+                        application on game days. It was also important to take
+                        into account the fact that I&#8217;d be designing for a
+                        wide range of individuals, of different ages, sizes,
+                        etc.</p>
 
-                        <p>Assuming parents as primary users, their contexts-of-use
-                        would be busy, with a degree of stress having just finished
-                        work and needing to head to a game or practice. It would
-                        be rare if 100% of their attention were captured by the
-                        application during most use cases.</p>
-
-                        <p>Their current use of technology is inconsistent and
-                        fragmented; at best parents may use a team centric app
-                        (like TeamSnap) for organization, and/or keep up with
-                        stats through a league-wide data system (for example,
-                        pointstreak.com is used in minor hockey leagues).</p>
+                        <p>The current use of technology in youth sports is inconsistent
+                        and fragmented. At best, parents may use a team centric
+                        app like
+                        <a href="https://www.teamsnap.com/" target="blank">TeamSnap</a>
+                        for organization. There are also league and team data
+                        repositories available like pointstreak.com, however
+                        their adoption is patchy across sports<a href="#footnotes">&sup1;</a>.</p>
 
                       </div>
               </div>
@@ -149,15 +157,13 @@
 
                       <div class="small-12 medium-8 columns"><!-- section body -->
 
-                      <p>Research was focused around interviewing parents, players,
-                      coaches and fans, and trying to get a feel for the kinds of
-                      frustrations they experienced, and what they pointed to as
-                      pain points with the current technology that they used.</p>
+                        <p>Research was focused around interviewing parents, players,
+                        coaches and fans, and revealed two common pain points:</p>
 
-                      <p>Two significant pain points stood out:</p>
-
-                      <h6>1. Constrained communication platforms</h6>
-                      <h6>2. Lack of a feeling of Community Support</h6>
+                        <ol>
+                          <li class="num-list">Constrained, closed communication platforms</li>
+                          <li class="num-list">Lack of a feeling of community support</li>
+                        </ol>
 
                       </div>
               </div>
@@ -174,15 +180,13 @@
 
                       <div class="small-12 medium-8 columns"><!-- section body -->
 
-                        <p>Designing for the two key pain points was paramount
-                        throughout the sketching and subsequent iteration
-                        phases.</p>
+                        <p>Three main flows were designed for the prototype:</p>
 
-                        <p>Three flows were designed for the prototype:</p>
-
-                        <h6>1. Channel-Style Messaging</h6>
-                        <h6>2. Public Team Profiles</h6>
-                        <h6>3. Pre-Game Notification &amp; Chat</h6>
+                        <ol>
+                          <li  class="num-list">Channel-style group/individual messaging</li>
+                          <li  class="num-list">Public team profiles</li>
+                          <li  class="num-list">Pre-game notification/invite to auto-created game channel</li>
+                        </ol>
 
                       </div>
               </div>
@@ -195,18 +199,17 @@
               <!-- Text area -->
               <div class="row text-area-padding">
                       <div class="small-12 medium-4 columns"><!-- section title -->
-                          <h6>High-Fidelity Prototype</h6>
+                          <h6>High-Fidelity</h6>
                       </div>
 
                       <div class="small-12 medium-8 columns"><!-- section body -->
 
                         <p>Designing the application for an android system, it was
-                        practical to follow Google's material design guidelines.</p>
-
-                        <p>For example, differentiating between when to use card
-                        elements vs. list elements was an important design
-                        consideration: cards were only to be used to imply
-                        that the element was dismissible.</p>
+                        practical to follow
+                        <a href="https://material.io/" target="blank">Google&#8217;s Material Design</a>
+                        guidelines. The colour scheme defaults to white for new users,
+                        but the concept of giving each team the ability to
+                        customize their colour scheme was considered.</p>
 
                       </div>
               </div>
@@ -218,16 +221,19 @@
               <!-- Text area -->
               <div class="row text-area-padding">
                       <div class="small-12 medium-4 columns"><!-- section title -->
-                          <h6>Channel Style Messaging</h6>
+                          <h6>Group Messaging</h6>
                       </div>
 
                       <div class="small-12 medium-8 columns"><!-- section body -->
 
-                        <p>Similar to the team communication app Slack, team parents and
-                        admin could open chat channels based on a topic, and set
-                        those channels to public or private. Public channels would
-                        appear on the team's public page, and supporters could also
-                        join in on the discussion.</p>
+                        <p>Similar to the team communication app
+                          <a href="http://www.slack.com" target="blank">Slack</a>,
+                          team parents and
+                          admin are able to open chat channels based on a topic or theme,
+                          and set
+                          those channels to public or private. Public channels would
+                          appear on the team&#8217;s public page, and supporters could also
+                          join in on the discussion.</p>
 
                       </div>
               </div>
@@ -238,12 +244,12 @@
               <!-- Text area -->
               <div class="row text-area-padding">
                       <div class="small-12 medium-4 columns"><!-- section title -->
-                          <h6>Channel Style Messaging</h6>
+                          <h6>Public Profiles</h6>
                       </div>
 
                       <div class="small-12 medium-8 columns"><!-- section body -->
 
-                        <p>Giving teams and players a public forum both allows
+                        <p>Giving teams and players a public forum allows
                           for them to develop a better understanding
                           of their league, as well as giving a
                           platform for supporters to share in the teams progress
@@ -258,19 +264,19 @@
               <!-- Text area -->
               <div class="row text-area-padding">
                       <div class="small-12 medium-4 columns"><!-- section title -->
-                          <h6>Pre-game Notification &amp; Chat</h6>
+                          <h6>Pre-game Notifications</h6>
                       </div>
 
                       <div class="small-12 medium-8 columns"><!-- section body -->
 
                         <p>The idea behind habit forming products is to align triggers
-                        with the frequency and occurrence of user habits<sup>1</sup>.
+                        with the frequency and occurrence of user habits<a href="#footnotes">&sup2;</a>.
                         A concept for doing so would be to automatically open game
                         channels on the day of. The trigger would be a notification
                         send out to parents/players declaring that the channel is
                         open. Upon opening the chat, users will be greeted with a
-                        message posting relevant opposing team stats, among other
-                        information.</p>
+                        message posting relevant information; for example opposing team stats,
+                        among other information.</p>
 
                         <p>By regularly inviting users into an automatically created
                         channel, the goal is for them to form a habit based inside
@@ -278,17 +284,37 @@
 
                         <p><a href="https://invis.io/K29GUPC8Z" target="blank">View the prototype.</a></p>
 
-                        <br /><br />
-                        <sup>1</sup>See <a href="https://www.goodreads.com/book/show/22668729-hooked" target="blank">&ldquo;Hooked&rdquo;</a> by Nir Eyal.
-
                       </div>
               </div>
 
 
+<!-- Footnotes -->
+              <div class="row text-area-padding">
+                <div class="small-12 medium-9 large-8 columns">
+
+                      <!-- #1 -->
+                      <p id="footnotes" class="footnote-style">
+                        &sup1; <a href="http://pointstreak.com/" target="blank">Pointstreak.com</a> is used
+                        primarily for amateur hockey leagues, however similar
+                        repositories are not available for other sports, like
+                        soccer (in Canada).
+                        <br />
+                        <a href="#pact">(back to PACT Analysis)</a>
+                      </p>
+
+                      <!-- #2 -->
+                      <p class="footnote-style">
+                        &sup2; &ldquo;Hooked,&rdquo; Nir Eyal. <a href="https://www.goodreads.com/book/show/22668729-hooked" target="blank">https://www.goodreads.com/book/show/22668729-hooked</a>
+                        <br />
+                      </p>
+
+                </div>
+              </div>
+
         <!-- all project content above ^^ -->
       </div>
     </div>
-
+</div>
 
 
 

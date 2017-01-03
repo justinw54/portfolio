@@ -52,6 +52,11 @@ header ul li {
   text-transform: uppercase;
   letter-spacing: 0.05em; }
 
+.num-list {
+  font-family: "Droid Serif", serif;
+  font-size: 1.05em;
+  line-height: 1.8em; }
+
 @media screen and (min-width: 40em) {
   h1 {
     font-size: 3.25em; }
@@ -99,7 +104,11 @@ header ul li {
     font-size: 0.85em; }
 
   header ul li {
-    font-size: 1.05em; } }
+    font-size: 1.05em; }
+
+  .num-list {
+    font-size: 1.15em;
+    line-height: 1.85em; } }
 a {
   color: inherit; }
 
