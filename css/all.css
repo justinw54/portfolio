@@ -57,6 +57,10 @@ header ul li {
   font-size: 1.05em;
   line-height: 1.8em; }
 
+.user-persona-titles {
+  text-align: center;
+  margin-bottom: 0.75rem; }
+
 @media screen and (min-width: 40em) {
   h1 {
     font-size: 3.25em; }
@@ -162,6 +166,30 @@ body {
 
 .page-title {
   padding: 2rem 0 2rem 0; }
+
+.video-mov-gif {
+  height: auto;
+  width: 240px;
+  display: block;
+  margin: 0 auto;
+  -webkit-box-shadow: 2px 2px 5px -1px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 2px 2px 5px -1px rgba(0, 0, 0, 0.6);
+  box-shadow: 2px 2px 5px -1px rgba(0, 0, 0, 0.6); }
+  @media screen and (min-width: 40em) {
+    .video-mov-gif {
+      width: 320px; } }
+
+.img-small {
+  width: 280px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  -webkit-box-shadow: 2px 2px 5px -1px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 2px 2px 5px -1px rgba(0, 0, 0, 0.6);
+  box-shadow: 2px 2px 5px -1px rgba(0, 0, 0, 0.6); }
+  @media screen and (min-width: 40em) {
+    .img-small {
+      width: 480px; } }
 
 /* ================ Header ==================== */
 header ul {
@@ -283,18 +311,6 @@ Specific Element Styles
 .project-pages > img {
   width: 100%;
   height: auto; }
-
-.the-port-gif {
-  height: auto;
-  width: 240px;
-  display: block;
-  margin: 0 auto;
-  -webkit-box-shadow: 2px 2px 5px -1px rgba(0, 0, 0, 0.6);
-  -moz-box-shadow: 2px 2px 5px -1px rgba(0, 0, 0, 0.6);
-  box-shadow: 2px 2px 5px -1px rgba(0, 0, 0, 0.6); }
-  @media screen and (min-width: 40em) {
-    .the-port-gif {
-      width: 320px; } }
 
 .text-area-padding {
   padding-top: 1.25rem;

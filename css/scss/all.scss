@@ -61,6 +61,33 @@ Global Styles
     padding: 2rem 0 2rem 0;
   }
 
+
+//movie styling.
+  .video-mov-gif {
+    height: auto;
+    width: 240px;
+    display: block;
+    margin: 0 auto;
+    @include shadow;
+
+    @media screen and (min-width: 40em) {
+      width: 320px;
+    }
+  }
+
+  //Contained-width images
+  .img-small {
+    width: 280px; //mobile
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    @include shadow;
+
+    @media screen and (min-width: 40em) {
+      width: 480px; //tablet, desktop
+    }
+  }
+
   /* ================ Header ==================== */
 
 
@@ -256,18 +283,6 @@ Specific Element Styles
   .project-pages > img {
     width: 100%;
     height: auto;
-  }
-
-  .the-port-gif {
-    height: auto;
-    width: 240px;
-    display: block;
-    margin: 0 auto;
-    @include shadow;
-
-    @media screen and (min-width: 40em) {
-      width: 320px;
-    }
   }
 
 
