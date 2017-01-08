@@ -1,45 +1,45 @@
 //all interactivity here
 
-
-//All Hover
-
+//<a> link hovers
 a {
   color:inherit;
 }
 
+  body.dark {
+    a {
+      transition: color 0.25s ease 0.05s;
+      color: $white;
+    }
+    a:hover {
+      color: $coral;
+    }
+  }
 
+  body {
+    a {
+      transition: color 0.25s ease 0.05s;
+      color: $vibe-purple;
+    }
+    a:hover {
+      color: $coral;
+    }
+  }
+
+  .nav-links-white {
+    transition: color 0.25s ease 0.05s;
+    color: $med-grey;
+  }
+  .nav-links-white:hover {
+    color: $vibe-purple
+  }
+
+//Project Card Hover, both backgrounds.
 .borders-white:hover{ //place on project cards only, same div level
     border: 1px solid $coral;
     box-shadow: -9px 9px 0 $coral;
 
 }
-
 .borders-black:hover {
   border: 1px solid $vibe-purple;
   box-shadow: -9px 9px 0 $vibe-purple;
-}
-
-
-body.dark {
-
-  a {
-    color: $white;
-  }
-
-  a:hover {
-    color: $coral;
-  }
-
-}
-
-
-body {
-
-  a {
-    color: $med-grey;
-  }
-
-  a:hover {
-    color: $vibe-purple;
-  }
 }

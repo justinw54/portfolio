@@ -1,0 +1,174 @@
+
+
+//mobile text properties
+h1 {//Primary Title
+  font-family: $display-font;
+  font-size: 2.5em;
+  letter-spacing: -0.05em;
+  line-height: 1em;
+}
+
+h2 {//Page Titles
+  font-family: $display-font;
+  font-size: 2em;
+  letter-spacing: -0.05em;
+  line-height: 1em;
+}
+
+h3 {//Titles, Project Cards ONLY
+  font-family: $gen-font;
+  font-size: 1.25em;
+  line-height: 1.25em;
+  color: $rich-black;
+}
+
+h4 {//Deck, Cards ONLY
+  font-family: $gen-font;
+  font-size: 0.85em;
+  color: $rich-black;
+}
+
+h5 { //Emphasis, Project Pages ONLY
+  font: {
+    family: $display-font;
+    size: 1.05em;
+  }
+  margin-top: 1.75em;
+}
+
+h6 {//Section-titles on PROJECT pages ONLY
+  font: {
+    family: $gen-font;
+    size: 1.15em;
+  }
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-top: 2rem;
+  margin-bottom: 2.5em;
+
+}
+
+p {
+  font-family: $body-font;
+  font-size: 1.05em;
+  line-height: 1.8em;
+}
+
+body { //default text
+  font-family: $gen-font;
+  font-size: 1em;
+}
+
+  //footnote styles.
+.footnote-style {
+  font: {
+    family: $body-font;
+    size: 0.85em;
+  }
+  line-height: 1.45em;
+}
+
+  //header link styles.
+header ul li {
+  font: {
+    family: $gen-font;
+    size: 0.85em;
+  }
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+  //numbered-lists -> copy <p>
+.num-list {
+  font-family: $body-font;
+  font-size: 1.05em;
+  line-height: 1.8em;
+}
+
+.user-persona-titles {
+  text-align: center;
+  margin-bottom: 0.75rem;
+}
+
+.card-text-captions {
+  font: {
+    family: $gen-font;
+    size: 0.9em;
+  }
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  line-height: 120%;
+  display: inline;
+}
+
+
+
+
+//TABLET
+@media screen and (min-width: 40em) {
+      h1 { font-size: 3.25em; }
+
+      h2 { font-size: 3em; }
+
+      h3 { font-size: 1.05em; }
+
+      h4 {
+      font-size: 0.75em;
+      line-height: 130%;
+      }
+
+      h5 { font-size: 1.1em; }
+
+      h6 { font-size: 0.95em;
+      margin-top: 0;
+      margin-bottom: 0; }
+
+      p {
+        font-size: 0.95em;
+      }
+      .footnote-style { font-size: 0.75em; }
+
+      header ul li { font-size: 0.95em; }
+
+      .card-text-captions {
+        font-size: 0.75em;
+        margin-top: 0.25rem;
+        }
+}
+
+
+//DESKTOP
+@media screen and (min-width: 55em) {
+  h3 { font-size: 1.25em; }
+
+  h4 {
+  font-size: 0.85em;
+  line-height: 140%;
+  }
+
+  h5 { font-size: 1.15em; }
+
+  h6 { font-size: 1.25em; }
+
+  p {
+    font-size: 1.15em;
+    line-height: 1.85em;
+  }
+
+  .footnote-style { font-size: 0.85em; }
+
+  header ul li { font-size: 1.05em; }
+
+  .num-list {
+    font-size: 1.15em;
+    line-height: 1.85em;
+  }
+
+  .card-text-captions {
+    font-size: 0.85em;
+    margin-top: 0;
+
+  }
+  .card-text-right {
+    text-align: right;
+  }
+}

@@ -8,6 +8,8 @@
 //interactivity
 @import 'interactive';
 
+//Typographic Styles
+@import 'type';
 
 /* ========================================
 Global Styles
@@ -234,6 +236,9 @@ Specific Element Styles
     display: inline-block;
   }
 
+  .index-images-btm {
+    margin-bottom: 2rem;
+  }
 
 /* ================ WORK / All ==================== */
 
@@ -249,7 +254,7 @@ Specific Element Styles
 
     .projects-cards {
 
-      padding-bottom: 2.75rem;
+      padding-bottom: 0.75rem;
       margin-bottom: 3rem;
 
       transition: all 0.25s;
@@ -261,18 +266,14 @@ Specific Element Styles
     }
 
     .project-cards-deck {
-      text-transform: none;
-      padding-top: 1.75em;
+      margin-top: 1.75rem;
 
     }
 
     .project-cards-caption {
       padding-top: 1.25rem;
       opacity: .45;
-
-        h6 {
-          margin-bottom: 0;
-        }
+      color: $rich-black;
     }
 
 

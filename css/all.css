@@ -1,3 +1,33 @@
+a {
+  color: inherit; }
+
+body.dark a {
+  transition: color 0.25s ease 0.05s;
+  color: white; }
+body.dark a:hover {
+  color: #e13732; }
+
+body a {
+  transition: color 0.25s ease 0.05s;
+  color: #6e5fc8; }
+body a:hover {
+  color: #e13732; }
+
+.nav-links-white {
+  transition: color 0.25s ease 0.05s;
+  color: #878787; }
+
+.nav-links-white:hover {
+  color: #6e5fc8; }
+
+.borders-white:hover {
+  border: 1px solid #e13732;
+  box-shadow: -9px 9px 0 #e13732; }
+
+.borders-black:hover {
+  border: 1px solid #6e5fc8;
+  box-shadow: -9px 9px 0 #6e5fc8; }
+
 h1 {
   font-family: "Work Sans", cursive;
   font-size: 2.5em;
@@ -13,11 +43,13 @@ h2 {
 h3 {
   font-family: "Poppins", helvetica, sans-serif;
   font-size: 1.25em;
-  line-height: 1.25em; }
+  line-height: 1.25em;
+  color: #232323; }
 
 h4 {
   font-family: "Poppins", helvetica, sans-serif;
-  font-size: 0.85em; }
+  font-size: 0.85em;
+  color: #232323; }
 
 h5 {
   font-family: "Work Sans", cursive;
@@ -61,6 +93,14 @@ header ul li {
   text-align: center;
   margin-bottom: 0.75rem; }
 
+.card-text-captions {
+  font-family: "Poppins", helvetica, sans-serif;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  line-height: 120%;
+  display: inline; }
+
 @media screen and (min-width: 40em) {
   h1 {
     font-size: 3.25em; }
@@ -69,10 +109,11 @@ header ul li {
     font-size: 3em; }
 
   h3 {
-    font-size: 0.9em; }
+    font-size: 1.05em; }
 
   h4 {
-    font-size: 1.15em; }
+    font-size: 0.75em;
+    line-height: 130%; }
 
   h5 {
     font-size: 1.1em; }
@@ -89,10 +130,18 @@ header ul li {
     font-size: 0.75em; }
 
   header ul li {
-    font-size: 0.95em; } }
+    font-size: 0.95em; }
+
+  .card-text-captions {
+    font-size: 0.75em;
+    margin-top: 0.25rem; } }
 @media screen and (min-width: 55em) {
   h3 {
     font-size: 1.25em; }
+
+  h4 {
+    font-size: 0.85em;
+    line-height: 140%; }
 
   h5 {
     font-size: 1.15em; }
@@ -112,28 +161,14 @@ header ul li {
 
   .num-list {
     font-size: 1.15em;
-    line-height: 1.85em; } }
-a {
-  color: inherit; }
+    line-height: 1.85em; }
 
-.borders-white:hover {
-  border: 1px solid #e13732;
-  box-shadow: -9px 9px 0 #e13732; }
+  .card-text-captions {
+    font-size: 0.85em;
+    margin-top: 0; }
 
-.borders-black:hover {
-  border: 1px solid #6e5fc8;
-  box-shadow: -9px 9px 0 #6e5fc8; }
-
-body.dark a {
-  color: white; }
-body.dark a:hover {
-  color: #e13732; }
-
-body a {
-  color: #878787; }
-body a:hover {
-  color: #6e5fc8; }
-
+  .card-text-right {
+    text-align: right; } }
 /* ========================================
 Global Styles
 ===========================================
@@ -281,6 +316,9 @@ Specific Element Styles
 .home-connect {
   display: inline-block; }
 
+.index-images-btm {
+  margin-bottom: 2rem; }
+
 /* ================ WORK / All ==================== */
 .gallery {
   margin-top: 4.5rem;
@@ -290,7 +328,7 @@ Specific Element Styles
     width: 100%; }
 
 .projects-cards {
-  padding-bottom: 2.75rem;
+  padding-bottom: 0.75rem;
   margin-bottom: 3rem;
   transition: all 0.25s; }
 
@@ -298,14 +336,12 @@ Specific Element Styles
   padding-top: 1.5rem; }
 
 .project-cards-deck {
-  text-transform: none;
-  padding-top: 1.75em; }
+  margin-top: 1.75rem; }
 
 .project-cards-caption {
   padding-top: 1.25rem;
-  opacity: .45; }
-  .project-cards-caption h6 {
-    margin-bottom: 0; }
+  opacity: .45;
+  color: #232323; }
 
 /* ================ PROJECT PAGES /all ==================== */
 .project-pages > img {
