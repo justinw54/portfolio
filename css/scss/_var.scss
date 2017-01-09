@@ -17,10 +17,10 @@ $rich-black: rgba(35, 35, 35, 1);
 //Google Placeholders: font-family: 'Poppins', sans-serif;
 //Google Placeholders: font-family: 'Work Sans', sans-serif;
 
+$body-font: 'Times New Roman', Times, serif;
+$display-font: 'HarpersGrotesque-Medium','Work Sans', cursive; //Harpers-Grotesk
+$gen-font: helvetica, sans-serif; //Sofia-Pro
 
-$body-font: 'Droid Serif', serif; //Laurentian-STD
-$display-font: 'Work Sans', cursive; //Harpers-Grotesk
-$gen-font: 'Poppins', helvetica, sans-serif;; //Sofia-Pro
 
 
 //Apply mixin to parent class.

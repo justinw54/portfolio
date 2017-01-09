@@ -4,14 +4,14 @@
 h1 {//Primary Title
   font-family: $display-font;
   font-size: 2.5em;
-  letter-spacing: -0.05em;
+  letter-spacing: -0.025em;
   line-height: 1em;
 }
 
 h2 {//Page Titles
   font-family: $display-font;
   font-size: 2em;
-  letter-spacing: -0.05em;
+  letter-spacing: -0.025em;
   line-height: 1em;
 }
 
@@ -51,12 +51,28 @@ h6 {//Section-titles on PROJECT pages ONLY
 p {
   font-family: $body-font;
   font-size: 1.05em;
-  line-height: 1.8em;
+  line-height: 1.65em;
 }
 
 body { //default text
   font-family: $gen-font;
   font-size: 1em;
+}
+
+
+footer {
+  font-family: $gen-font;
+  font-size: 0.9em;
+}
+
+//header link styles.
+header ul li {
+font: {
+  family: $gen-font;
+  size: 0.85em;
+}
+text-transform: uppercase;
+letter-spacing: 0.05em;
 }
 
   //footnote styles.
@@ -68,15 +84,6 @@ body { //default text
   line-height: 1.45em;
 }
 
-  //header link styles.
-header ul li {
-  font: {
-    family: $gen-font;
-    size: 0.85em;
-  }
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
   //numbered-lists -> copy <p>
 .num-list {
   font-family: $body-font;
@@ -101,6 +108,22 @@ header ul li {
 }
 
 
+.home-connect {
+  font-family: $gen-font;
+  font-size: 1.15em;
+}
+
+  //footer links, mobile
+.footer-text-links {
+  font: {
+    family: $gen-font;
+    size: 0.95em;
+  }
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-top: 2rem;
+  margin-bottom: 2.5em;
+}
 
 
 //TABLET
@@ -125,7 +148,7 @@ header ul li {
       p {
         font-size: 0.95em;
       }
-      .footnote-style { font-size: 0.75em; }
+      .footnote-style { font-size: 0.85em; }
 
       header ul li { font-size: 0.95em; }
 
@@ -133,6 +156,10 @@ header ul li {
         font-size: 0.75em;
         margin-top: 0.25rem;
         }
+
+      .footer-text-links {
+        font-size: 0.85em;
+      }
 }
 
 
@@ -150,11 +177,11 @@ header ul li {
   h6 { font-size: 1.25em; }
 
   p {
-    font-size: 1.15em;
-    line-height: 1.85em;
+    font-size: 1.35em;
+    line-height: 1.55em;
   }
 
-  .footnote-style { font-size: 0.85em; }
+  .footnote-style { font-size: 0.95em; }
 
   header ul li { font-size: 1.05em; }
 
@@ -171,4 +198,6 @@ header ul li {
   .card-text-right {
     text-align: right;
   }
+
+  .footer-text-links { font-size: 0.95em; }
 }
