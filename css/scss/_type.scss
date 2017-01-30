@@ -69,7 +69,7 @@ footer {
 header ul li {
 font: {
   family: $gen-font;
-  size: 0.85em;
+  size: 0.9em;
 }
 text-transform: uppercase;
 letter-spacing: 0.05em;
@@ -150,8 +150,6 @@ letter-spacing: 0.05em;
       }
       .footnote-style { font-size: 0.85em; }
 
-      header ul li { font-size: 0.95em; }
-
       .card-text-captions {
         font-size: 0.75em;
         margin-top: 0.25rem;
@@ -182,8 +180,6 @@ letter-spacing: 0.05em;
   }
 
   .footnote-style { font-size: 0.95em; }
-
-  header ul li { font-size: 1.05em; }
 
   .num-list {
     font-size: 1.15em;

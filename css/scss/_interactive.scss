@@ -48,3 +48,11 @@ a {
 .footer-grey-text:hover {
   color: $secondary-accent;
 }
+
+//Navigation bar hover
+.darken:hover {
+  background-color: darken($primary-bkgd, 2%);
+}
+.tint:hover {
+  background-color: darken($secondary-bkgd, 2%);
+}
