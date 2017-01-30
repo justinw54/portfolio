@@ -4,43 +4,21 @@
 
 //Colors in use:
 $black: rgba(0,0,0,1);
-$deep-purple: rgba(25, 18, 30,1);
-//$deep-purpple: rgba(35,20,65,1);
-$vibe-purple: rgba(110, 95, 200,1); //#6e5fc8
-$white: rgba(255, 255, 255, 1);
-$coral: rgba(225, 55, 50, 1); //#E13732
+
+$primary-bkgd: rgba(25, 18, 30,1);
+$primary-text: rgba(255, 255, 255, 1);
+$primary-accent: rgba(225, 55, 50, 1);
+
+$secondary-accent: rgba(110, 95, 200,1);
+$secondary-bkgd: rgba(255, 255, 255, 1);
+
 $med-grey: rgba(135, 135, 135, 1); //#878787
 $rich-black: rgba(35, 35, 35, 1);
 
-//font stacks
-//Google Placeholders: font-family: 'Droid Serif', serif;
-//Google Placeholders: font-family: 'Poppins', sans-serif;
-//Google Placeholders: font-family: 'Work Sans', sans-serif;
 
-$body-font: 'Times New Roman', Times, serif;
-$display-font: 'HarpersGrotesque-Medium','Work Sans', cursive; //Harpers-Grotesk
+$display-font: 'HarpersGrotesque-Medium','Work Sans', helvetica, sans-serif;
 $gen-font: helvetica, sans-serif; //Sofia-Pro
-
-
-
-//Apply mixin to parent class.
-//child div must include class "content"
-@mixin aspect-ratio($width, $height) {
-  position: relative;
-  &:before {
-    display: block;
-    content: "";
-    width: 100%;
-    padding-top: ($height / $width) * 100%;
-  }
-  > .content {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
-}
+$body-font: 'Times New Roman', Times, serif;
 
 
 @mixin shadow {

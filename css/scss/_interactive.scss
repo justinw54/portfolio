@@ -8,20 +8,20 @@ a {
   body.dark {
     a {
       transition: color 0.25s ease 0.05s;
-      color: $white;
+      color: $primary-text;
     }
     a:hover {
-      color: $coral;
+      color: $primary-accent;
     }
   }
 
   body {
     a {
       transition: color 0.25s ease 0.05s;
-      color: $vibe-purple;
+      color: $secondary-accent;
     }
     a:hover {
-      color: $coral;
+      color: $primary-accent;
     }
   }
 
@@ -30,21 +30,21 @@ a {
     color: $med-grey;
   }
   .nav-links-white:hover {
-    color: $vibe-purple
+    color: $secondary-accent
   }
 
 //Project Card Hover, both backgrounds.
 .borders-white:hover{ //place on project cards only, same div level
-    border: 1px solid $coral;
-    box-shadow: -9px 9px 0 $coral;
+    border: 1px solid $primary-accent;
+    box-shadow: -9px 9px 0 $primary-accent;
 
 }
 .borders-black:hover {
-  border: 1px solid $vibe-purple;
-  box-shadow: -9px 9px 0 $vibe-purple;
+  border: 1px solid $secondary-accent;
+  box-shadow: -9px 9px 0 $secondary-accent;
 }
 
   //hover on footer text
 .footer-grey-text:hover {
-  color: $vibe-purple;
+  color: $secondary-accent;
 }

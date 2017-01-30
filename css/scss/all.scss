@@ -20,12 +20,16 @@ Global Styles
 //Dark Background pages
 
     .dark {//for home page only; colors background.
-      background-color: $deep-purple;
-      color: $white;
+      background-color: $primary-bkgd;
+      color: $primary-text; //white
     }
 
-    .coral-span {
-      border-bottom: 8px solid $coral;
+    .primary-span {
+      border-bottom: 8px solid $primary-accent;
+    }
+
+    .secondary-span {
+      border-bottom: 8px solid $secondary-accent;
     }
 
     .hairlines-white {
@@ -39,14 +43,12 @@ Global Styles
 //Light Background Pages
 
     body {
-      background-color: $white;
+      background-color: $secondary-bkgd;
       color: $rich-black;
 
     }
 
-  .purple-span {
-    border-bottom: 8px solid $vibe-purple;
-  }
+
 
   .hairlines-black {
     border-bottom: 1px solid rgba(0,0,0,0.25);
@@ -130,7 +132,7 @@ Global Styles
       }
 
       span {
-        background-color: $coral;
+        background-color: $primary-accent;
         display: block;
         height: 8px;
         position: absolute;
@@ -347,5 +349,5 @@ Specific Element Styles
         }
       }
       .connect-indicator {
-          border-bottom: 8px solid $vibe-purple;
+          border-bottom: 8px solid $secondary-accent;
       }

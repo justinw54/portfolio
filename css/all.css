@@ -32,13 +32,13 @@ body a:hover {
   color: #6e5fc8; }
 
 h1 {
-  font-family: "HarpersGrotesque-Medium", "Work Sans", cursive;
+  font-family: "HarpersGrotesque-Medium", "Work Sans", helvetica, sans-serif;
   font-size: 2.5em;
   letter-spacing: -0.025em;
   line-height: 1em; }
 
 h2 {
-  font-family: "HarpersGrotesque-Medium", "Work Sans", cursive;
+  font-family: "HarpersGrotesque-Medium", "Work Sans", helvetica, sans-serif;
   font-size: 2em;
   letter-spacing: -0.025em;
   line-height: 1em; }
@@ -55,7 +55,7 @@ h4 {
   color: #232323; }
 
 h5 {
-  font-family: "HarpersGrotesque-Medium", "Work Sans", cursive;
+  font-family: "HarpersGrotesque-Medium", "Work Sans", helvetica, sans-serif;
   font-size: 1.05em;
   margin-top: 1.75em; }
 
@@ -202,8 +202,11 @@ Global Styles
   background-color: #19121e;
   color: white; }
 
-.coral-span {
+.primary-span {
   border-bottom: 8px solid #e13732; }
+
+.secondary-span {
+  border-bottom: 8px solid #6e5fc8; }
 
 .hairlines-white {
   border-bottom: 1px solid rgba(255, 255, 255, 0.25); }
@@ -214,9 +217,6 @@ Global Styles
 body {
   background-color: white;
   color: #232323; }
-
-.purple-span {
-  border-bottom: 8px solid #6e5fc8; }
 
 .hairlines-black {
   border-bottom: 1px solid rgba(0, 0, 0, 0.25); }
