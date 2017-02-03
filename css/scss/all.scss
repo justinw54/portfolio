@@ -349,3 +349,107 @@ Specific Element Styles
       .connect-indicator {
           border-bottom: 8px solid $secondary-accent;
       }
+
+
+
+/* ==========================================================================
+   The Port: Banner & Parallax
+   ========================================================================== */
+        .banner {
+            width: 100%;
+            min-height: 400px;
+            background: transparent;
+        }
+
+
+        /* Parallax Container  */
+        #little-current {
+            height: 640px;
+            overflow: hidden;
+            position: relative;
+        }
+
+            #little-current .layer {
+                background-position: top center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                width: 100%;
+                height: 640px;
+                //position: fixed;
+                z-index: -1;
+            }
+
+
+        /* keyart frames */
+        .layer.layer-00 {
+            background-image: url('../img/the-port/banner/keyart-1-a.png');
+            width: 100%;
+        }
+
+        .layer.layer-01 {
+            background-image: url('../img/the-port/banner/keyart-2.png');
+            width: 100%;
+        }
+
+        .layer.layer-02 {
+            background-image: url('../img/the-port/banner/keyart-3_banner.png');
+            width: 100%;
+            animation-name: up-down;
+            animation-direction: alternate;
+            animation-timing-function: linear;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+
+        .layer.layer-03 {
+            background-image: url('../img/the-port/banner/keyart-4_banner.png');
+            width: 100%;
+            animation-name: down-up;
+            animation-direction: alternate;
+            animation-timing-function: linear;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+
+        .layer.layer-04 {
+            background-image: url('../img/the-port/banner/keyart-5_banner.png');
+            width: 100%;
+            animation-name: up-down;
+            animation-direction: alternate;
+            animation-timing-function: linear;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+
+
+/*  ==========================================================================
+    Animations
+    ========================================================================== */
+
+@keyframes up-down {
+    0% {
+        top: 0%;
+    }
+
+    50% {
+        top: 0.75%;
+    }
+
+    100% {
+        top: 1.25%;
+    }
+}
+
+@keyframes down-up {
+    0% {
+        top: 1.25%;
+    }
+
+    50% {
+        top: 0.75%;
+    }
+
+    100% {
+        top: 0%;
+    }
+}

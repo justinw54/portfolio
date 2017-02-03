@@ -50,9 +50,14 @@ a {
 }
 
 //Navigation bar hover
+.darken,
+.tint {
+  transition: background-color 0.2s ease 0.05s;
+}
+
 .darken:hover {
-  background-color: darken($primary-bkgd, 2%);
+  background-color: darken($primary-bkgd, 4%);
 }
 .tint:hover {
-  background-color: darken($secondary-bkgd, 2%);
+  background-color: darken($secondary-bkgd, 6%);
 }
