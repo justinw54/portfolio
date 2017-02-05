@@ -389,6 +389,17 @@ Specific Element Styles
       padding-top: 2.5rem;
       padding-bottom: 4rem; } }
 
+.project-img-full-width img {
+  margin: 0 auto;
+  display: block;
+  max-height: 640px; }
+
+.the-port-banners img {
+  -webkit-box-shadow: 2px 2px 5px -1px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 2px 2px 5px -1px rgba(0, 0, 0, 0.6);
+  box-shadow: 2px 2px 5px -1px rgba(0, 0, 0, 0.6);
+  margin-bottom: 2rem; }
+
 /* ================ ABOUT ==================== */
 .about-bio-picture {
   width: 50%;
@@ -408,16 +419,16 @@ Specific Element Styles
   display: flex; }
 
 .about-ysdn {
-  height: 100px; }
+  height: 64px; }
 
 .about-cppib {
-  height: 60px; }
+  height: 42px; }
 
 .about-state-street {
-  height: 180px; }
+  height: 110px; }
 
 .about-uwo {
-  height: 180px; }
+  height: 96px; }
 
 .connect-detail {
   display: flex;
@@ -433,28 +444,40 @@ Specific Element Styles
 /* ==========================================================================
    The Port: Banner & Parallax
    ========================================================================== */
-.banner {
+.parallax {
   width: 100%;
-  min-height: 400px;
-  background: transparent; }
+  height: auto; }
 
 /* Parallax Container  */
 #little-current {
-  height: 640px;
+  height: 320px;
   overflow: hidden;
   position: relative; }
+  @media screen and (min-width: 40em) {
+    #little-current {
+      height: 640px; } }
+  @media screen and (min-width: 55em) {
+    #little-current {
+      height: 860px; } }
 
 #little-current .layer {
+  height: 320px;
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 640px;
+  position: absolute;
   z-index: -1; }
+  @media screen and (min-width: 40em) {
+    #little-current .layer {
+      height: 640px; } }
+  @media screen and (min-width: 55em) {
+    #little-current .layer {
+      height: 860px; } }
 
 /* keyart frames */
 .layer.layer-00 {
-  background-image: url("../img/the-port/banner/keyart-1-a.png");
+  background-image: url("../img/the-port/banner/keyart-1-a-1.png");
   width: 100%; }
 
 .layer.layer-01 {
@@ -505,5 +528,55 @@ Specific Element Styles
     top: 0.75%; }
   100% {
     top: 0%; } }
+/*  ==========================================================================
+    Gradients
+    ========================================================================== */
+.the-port-bkgd {
+  background: #daf8ff;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #daf8ff 0%, #c8f4ff 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #daf8ff 0%, #c8f4ff 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #daf8ff 0%, #c8f4ff 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#daf8ff', endColorstr='#c8f4ff',GradientType=0 );
+  /* IE6-9 */ }
+
+.run-of-play-bkgd {
+  background: #0049ff;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #0049ff 0%, #0040df 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #0049ff 0%, #0040df 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #0049ff 0%, #0040df 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0049ff', endColorstr='#0040df',GradientType=0 );
+  /* IE6-9 */ }
+
+.bnn-bkgd {
+  background: #ff3030;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #ff3030 0%, #db1818 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #ff3030 0%, #db1818 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #ff3030 0%, #db1818 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3030', endColorstr='#db1818',GradientType=0 );
+  /* IE6-9 */ }
+
+.big-bloom-bkgd {
+  background: #debbff;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #debbff 0%, #cba9eb 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #debbff 0%, #cba9eb 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #debbff 0%, #cba9eb 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#debbff', endColorstr='#cba9eb',GradientType=0 );
+  /* IE6-9 */ }
 
 /*# sourceMappingURL=all.css.map */
