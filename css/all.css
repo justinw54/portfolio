@@ -1,3 +1,8 @@
+.img-shadow {
+  -webkit-box-shadow: 2px 2px 5px -1px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 2px 2px 5px -1px rgba(0, 0, 0, 0.6);
+  box-shadow: 2px 2px 5px -1px rgba(0, 0, 0, 0.6); }
+
 a {
   color: inherit; }
 
@@ -394,11 +399,12 @@ Specific Element Styles
   display: block;
   max-height: 640px; }
 
-.the-port-banners img {
-  -webkit-box-shadow: 2px 2px 5px -1px rgba(0, 0, 0, 0.6);
-  -moz-box-shadow: 2px 2px 5px -1px rgba(0, 0, 0, 0.6);
-  box-shadow: 2px 2px 5px -1px rgba(0, 0, 0, 0.6);
-  margin-bottom: 2rem; }
+.big-bloom-dash {
+  width: 92%;
+  max-width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  display: block; }
 
 /* ================ ABOUT ==================== */
 .about-bio-picture {
@@ -532,51 +538,42 @@ Specific Element Styles
     Gradients
     ========================================================================== */
 .the-port-bkgd {
-  background: #daf8ff;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, #daf8ff 0%, #c8f4ff 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #daf8ff 0%, #c8f4ff 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #daf8ff 0%, #c8f4ff 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: #B4E9FF;
+  /*
+  background: -moz-linear-gradient(top,  #daf8ff 0%, #c8f4ff 100%);
+  background: -webkit-linear-gradient(top,  #daf8ff 0%,#c8f4ff 100%);
+  background: linear-gradient(to bottom,  #daf8ff 0%,#c8f4ff 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#daf8ff', endColorstr='#c8f4ff',GradientType=0 );
-  /* IE6-9 */ }
+  */ }
 
 .run-of-play-bkgd {
+  background: #5E98FF;
+  /*
   background: #0049ff;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, #0049ff 0%, #0040df 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #0049ff 0%, #0040df 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #0049ff 0%, #0040df 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: -moz-linear-gradient(top,  #0049ff 0%, #0040df 100%);
+  background: -webkit-linear-gradient(top,  #0049ff 0%,#0040df 100%);
+  background: linear-gradient(to bottom,  #0049ff 0%,#0040df 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0049ff', endColorstr='#0040df',GradientType=0 );
-  /* IE6-9 */ }
+  */ }
 
 .bnn-bkgd {
+  background: #FF5A68;
+  /*
   background: #ff3030;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, #ff3030 0%, #db1818 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #ff3030 0%, #db1818 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #ff3030 0%, #db1818 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: -moz-linear-gradient(top,  #ff3030 0%, #db1818 100%);
+  background: -webkit-linear-gradient(top,  #ff3030 0%,#db1818 100%);
+  background: linear-gradient(to bottom,  #ff3030 0%,#db1818 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3030', endColorstr='#db1818',GradientType=0 );
-  /* IE6-9 */ }
+  */ }
 
 .big-bloom-bkgd {
-  background: #debbff;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, #debbff 0%, #cba9eb 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #debbff 0%, #cba9eb 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #debbff 0%, #cba9eb 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#debbff', endColorstr='#cba9eb',GradientType=0 );
-  /* IE6-9 */ }
+  background: #C3B8F9;
+  /*
+  background: #907afd;
+  background: -moz-linear-gradient(top,  #907afd 0%, #7966d7 100%);
+  background: -webkit-linear-gradient(top,  #907afd 0%,#7966d7 100%);
+  background: linear-gradient(to bottom,  #907afd 0%,#7966d7 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#907afd', endColorstr='#7966d7',GradientType=0 );
+  */ }
 
 /*# sourceMappingURL=all.css.map */
