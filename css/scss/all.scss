@@ -492,55 +492,28 @@ Specific Element Styles
 
 
 /*  ==========================================================================
-    Gradients
+    Backgrounds
     ========================================================================== */
 
 
+    .housing-bkgd {
+      background: #f5f5fa;
+    }
 
   .the-port-bkgd {
     background: #B4E9FF;
-
-    /*
-    background: -moz-linear-gradient(top,  #daf8ff 0%, #c8f4ff 100%);
-    background: -webkit-linear-gradient(top,  #daf8ff 0%,#c8f4ff 100%);
-    background: linear-gradient(to bottom,  #daf8ff 0%,#c8f4ff 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#daf8ff', endColorstr='#c8f4ff',GradientType=0 );
-    */
 
   }
 
   .run-of-play-bkgd {
     background: #5E98FF;
-
-    /*
-    background: #0049ff;
-    background: -moz-linear-gradient(top,  #0049ff 0%, #0040df 100%);
-    background: -webkit-linear-gradient(top,  #0049ff 0%,#0040df 100%);
-    background: linear-gradient(to bottom,  #0049ff 0%,#0040df 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0049ff', endColorstr='#0040df',GradientType=0 );
-    */
   }
 
   .bnn-bkgd {
     background: #FF5A68;
-
-    /*
-    background: #ff3030;
-    background: -moz-linear-gradient(top,  #ff3030 0%, #db1818 100%);
-    background: -webkit-linear-gradient(top,  #ff3030 0%,#db1818 100%);
-    background: linear-gradient(to bottom,  #ff3030 0%,#db1818 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3030', endColorstr='#db1818',GradientType=0 );
-    */
   }
 
   .big-bloom-bkgd {
     background: #C3B8F9;
 
-    /*
-    background: #907afd;
-    background: -moz-linear-gradient(top,  #907afd 0%, #7966d7 100%);
-    background: -webkit-linear-gradient(top,  #907afd 0%,#7966d7 100%);
-    background: linear-gradient(to bottom,  #907afd 0%,#7966d7 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#907afd', endColorstr='#7966d7',GradientType=0 );
-    */
   }

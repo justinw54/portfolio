@@ -10,38 +10,38 @@ body.dark a {
   transition: color 0.25s ease 0.05s;
   color: white; }
 body.dark a:hover {
-  color: #e13732; }
+  color: #00ff99; }
 
 body a {
   transition: color 0.25s ease 0.05s;
-  color: #6e5fc8; }
+  color: #3333ff; }
 body a:hover {
-  color: #e13732; }
+  color: #00ff99; }
 
 .nav-links-white {
   transition: color 0.25s ease 0.05s;
   color: #878787; }
 
 .nav-links-white:hover {
-  color: #6e5fc8; }
+  color: #3333ff; }
 
 .borders-white:hover {
-  border: 1px solid #e13732;
-  box-shadow: -9px 9px 0 #e13732; }
+  border: 1px solid #00ff99;
+  box-shadow: -9px 9px 0 #00ff99; }
 
 .borders-black:hover {
-  border: 1px solid #6e5fc8;
-  box-shadow: -9px 9px 0 #6e5fc8; }
+  border: 1px solid #3333ff;
+  box-shadow: -9px 9px 0 #3333ff; }
 
 .footer-grey-text:hover {
-  color: #6e5fc8; }
+  color: #3333ff; }
 
 .darken,
 .tint {
   transition: background-color 0.2s ease 0.05s; }
 
 .darken:hover {
-  background-color: #0e0a11; }
+  background-color: #00305b; }
 
 .tint:hover {
   background-color: #f0f0f0; }
@@ -208,14 +208,14 @@ Global Styles
 ===========================================
 */
 .dark {
-  background-color: #19121e;
+  background-color: #003b6f;
   color: white; }
 
 .primary-span {
-  border-bottom: 8px solid #e13732; }
+  border-bottom: 8px solid #00ff99; }
 
 .secondary-span {
-  border-bottom: 8px solid #6e5fc8; }
+  border-bottom: 8px solid #3333ff; }
 
 .hairlines-white {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
@@ -283,7 +283,7 @@ header ul {
     text-decoration: none;
     transition: color 0.25s; }
   header ul span {
-    background-color: #e13732;
+    background-color: #00ff99;
     display: block;
     height: 8px;
     position: absolute;
@@ -445,7 +445,7 @@ Specific Element Styles
       margin-top: 0; } }
 
 .connect-indicator {
-  border-bottom: 8px solid #6e5fc8; }
+  border-bottom: 8px solid #3333ff; }
 
 /* ==========================================================================
    The Port: Banner & Parallax
@@ -535,45 +535,21 @@ Specific Element Styles
   100% {
     top: 0%; } }
 /*  ==========================================================================
-    Gradients
+    Backgrounds
     ========================================================================== */
+.housing-bkgd {
+  background: #f5f5fa; }
+
 .the-port-bkgd {
-  background: #B4E9FF;
-  /*
-  background: -moz-linear-gradient(top,  #daf8ff 0%, #c8f4ff 100%);
-  background: -webkit-linear-gradient(top,  #daf8ff 0%,#c8f4ff 100%);
-  background: linear-gradient(to bottom,  #daf8ff 0%,#c8f4ff 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#daf8ff', endColorstr='#c8f4ff',GradientType=0 );
-  */ }
+  background: #B4E9FF; }
 
 .run-of-play-bkgd {
-  background: #5E98FF;
-  /*
-  background: #0049ff;
-  background: -moz-linear-gradient(top,  #0049ff 0%, #0040df 100%);
-  background: -webkit-linear-gradient(top,  #0049ff 0%,#0040df 100%);
-  background: linear-gradient(to bottom,  #0049ff 0%,#0040df 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0049ff', endColorstr='#0040df',GradientType=0 );
-  */ }
+  background: #5E98FF; }
 
 .bnn-bkgd {
-  background: #FF5A68;
-  /*
-  background: #ff3030;
-  background: -moz-linear-gradient(top,  #ff3030 0%, #db1818 100%);
-  background: -webkit-linear-gradient(top,  #ff3030 0%,#db1818 100%);
-  background: linear-gradient(to bottom,  #ff3030 0%,#db1818 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3030', endColorstr='#db1818',GradientType=0 );
-  */ }
+  background: #FF5A68; }
 
 .big-bloom-bkgd {
-  background: #C3B8F9;
-  /*
-  background: #907afd;
-  background: -moz-linear-gradient(top,  #907afd 0%, #7966d7 100%);
-  background: -webkit-linear-gradient(top,  #907afd 0%,#7966d7 100%);
-  background: linear-gradient(to bottom,  #907afd 0%,#7966d7 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#907afd', endColorstr='#7966d7',GradientType=0 );
-  */ }
+  background: #C3B8F9; }
 
 /*# sourceMappingURL=all.css.map */
