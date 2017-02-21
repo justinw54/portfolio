@@ -77,13 +77,12 @@ h5 {
 h6 {
   font-family: helvetica, sans-serif;
   font-size: 1.15em;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.035em;
   margin-top: 2rem;
   margin-bottom: 2.5em; }
 
 p {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "FinancierTextWeb", "times", sans-serif;
   font-size: 1.05em;
   line-height: 1.65em; }
 
@@ -102,12 +101,12 @@ header ul li {
   letter-spacing: 0.05em; }
 
 .footnote-style {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "FinancierTextWeb", "times", sans-serif;
   font-size: 0.85em;
   line-height: 1.45em; }
 
 .num-list {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "FinancierTextWeb", "times", sans-serif;
   font-size: 1.05em;
   line-height: 1.8em; }
 
@@ -181,18 +180,19 @@ header ul li {
     font-size: 1.15em; }
 
   h6 {
-    font-size: 1.25em; }
+    font-size: 1.15em; }
 
   p {
     font-size: 1.35em;
-    line-height: 1.55em; }
+    line-height: 1.35em;
+    letter-spacing: -0.05px; }
 
   .footnote-style {
     font-size: 0.95em; }
 
   .num-list {
     font-size: 1.15em;
-    line-height: 1.85em; }
+    line-height: 1.65em; }
 
   .card-text-captions {
     font-size: 0.85em;

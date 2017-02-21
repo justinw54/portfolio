@@ -17,8 +17,8 @@ $rich-black: rgba(35, 35, 35, 1);
 
 
 $display-font: 'HarpersGrotesque-Medium','Work Sans', helvetica, sans-serif;
-$gen-font: helvetica, sans-serif; //Sofia-Pro
-$body-font: 'Times New Roman', Times, serif;
+$gen-font: helvetica, sans-serif; //Sofia-Pro, Typekit
+$body-font: 'FinancierTextWeb', 'times', sans-serif;
 
 
 @mixin shadow {
