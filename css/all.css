@@ -96,8 +96,7 @@ footer {
 
 header ul li {
   font-family: helvetica, sans-serif;
-  font-size: 0.9em;
-  text-transform: uppercase;
+  font-size: 1.0em;
   letter-spacing: 0.05em; }
 
 .footnote-style {
@@ -106,8 +105,8 @@ header ul li {
   line-height: 1.45em; }
 
 .num-list {
-  font-family: "FinancierTextWeb", "times", sans-serif;
-  font-size: 1.05em;
+  font-family: helvetica, sans-serif;
+  font-size: 1.15em;
   line-height: 1.8em; }
 
 .user-persona-titles {
@@ -121,10 +120,6 @@ header ul li {
   letter-spacing: 0.025em;
   line-height: 120%;
   display: inline; }
-
-.home-connect {
-  font-family: helvetica, sans-serif;
-  font-size: 1.15em; }
 
 .footer-text-links {
   font-family: helvetica, sans-serif;
@@ -170,10 +165,10 @@ header ul li {
     font-size: 0.85em; } }
 @media screen and (min-width: 55em) {
   h3 {
-    font-size: 1.25em; }
+    font-size: 1.55em; }
 
   h4 {
-    font-size: 0.85em;
+    font-size: 1.0em;
     line-height: 140%; }
 
   h5 {
@@ -191,7 +186,7 @@ header ul li {
     font-size: 0.95em; }
 
   .num-list {
-    font-size: 1.15em;
+    font-size: 1.25em;
     line-height: 1.65em; }
 
   .card-text-captions {
@@ -281,7 +276,8 @@ header ul {
   header ul a {
     display: block;
     text-decoration: none;
-    transition: color 0.25s; }
+    transition: color 0.25s;
+    line-height: 120%; }
   header ul span {
     background-color: #00ff99;
     display: block;
@@ -347,20 +343,16 @@ Specific Element Styles
     margin: 10px 0 60px 0; }
 
 .home-connect {
+  font-family: helvetica, sans-serif;
   display: inline-block;
-  text-transform: uppercase;
-  font-size: 0.9em;
-  padding-bottom: 0.65rem;
-  width: 5rem;
+  font-size: 1.0em;
+  padding-bottom: 0.35rem;
   text-align: center; }
-
-.index-images-btm {
-  margin-bottom: 2rem; }
 
 /* ================ WORK / All ==================== */
 .gallery {
-  margin-top: 4.5rem;
-  padding-bottom: 6rem; }
+  margin-top: 1.5rem;
+  padding-bottom: 2.25rem; }
   .gallery img {
     height: auto;
     width: 100%; }

@@ -54,7 +54,7 @@
         <ul>
           <li class="header-logo"><a href="index.html" class="nav-links-white">Justin<br />White</a></li>
           <li class="float-right" style="margin-left:2rem;"><a href="about.html" class="nav-links-white">About</a></li>
-          <li class="float-right current secondary-span"><a href="projects.html" class="nav-links-white">Projects</a></li>
+          <!--li class="float-right current secondary-span"><a href="projects.html" class="nav-links-white">Projects</a></li-->
           <!--li class="float-right"><a href="#">Writing</a></li-->
           <span></span>
         </ul>
@@ -117,8 +117,10 @@
 
 
 <!--  ================ Audience -->
-              <!-- banner img >
-              <img src="img/dummy-project-img.png" alt="Run of Play" / -->
+              <!-- User Persona -->
+              <div class="run-of-play-bkgd project-img-full-width">
+                  <img src="img/run-of-play/User-persona.png" alt="User Personas identified, bullet points." />
+              </div>
 
               <!-- Text area -->
               <div class="row text-area-padding">
@@ -130,7 +132,7 @@
 
                       <p>Who's involved in youth sports? What kind of experiences do
                       they have? What aspects do they enjoy, and which yield
-                      frustrations? The below user persona profiles were put together
+                      frustrations? The above user persona profiles were put together
                       based off of both research and interviews with people who are
                       involved with various amateur sport teams.</p>
 
@@ -138,69 +140,38 @@
 
               </div>
 
-<!-- temp: 3-column user persona data -->
-              <div class="row text-area-padding">
-                      <div class="small-12 medium-4 columns">
-                            <h6 class="user-persona-titles">Parents &amp; Players</h6>
 
-                            <ul>
-                              <li>Busy, often engaged with multiple sports leagues for each child.</li>
-                              <li>Youth sports, specifically team-related outings, become a major part of parent&#8217;s social lives.</li>
-                              <li>Players ages 5 - 16+ may have infrequent access to mobile phone or desktop computers.</li>
-                              <li>Use of related software varies; of parents interviewed there tended to be a central organization/scheduling application that a team relies on.</li>
-                            </ul>
+<!--  ================  Competitive Analysis-->
 
-                      </div>
-
-                      <div class="small-12 medium-4 columns">
-                            <h6 class="user-persona-titles">Coaches &amp; Administrators</h6>
-
-                            <ul>
-                              <li>Volunteer, often unpaid.</li>
-                              <li>Develop individual systems for managing team progress.</li>
-                              <li>Coaches interviewed resistant to change &mdash; they rely on their systems and are averse to taking risks on new technology.</li>
-                            </ul>
-
-                      </div>
-
-                      <div class="small-12 medium-4 columns">
-                            <h6 class="user-persona-titles">Supporters</h6>
-
-                            <ul>
-                              <li>Relatives, family who want to be able to follow and support players/teams.</li>
-                              <li>Unable to attend games consistently, must rely on calls or other forms of direct communication.</li>
-                            </ul>
-
-                      </div>
-
+              <!-- User Persona -->
+              <div class="row">
+                  <img src="img/run-of-play/Comp-analysis.png" alt="Competitive Analysis: TeamSnap, GameChanger, SportsEngine" />
               </div>
 
-
-<!--  ================ PACT Analysis-->
               <!-- Text area -->
               <div class="row text-area-padding">
                       <div class="small-12 medium-4 columns"><!-- section title -->
-                          <h6 id="pact">People, Action, Context, Technology (PACT) Analysis</h6>
+                          <h6 id="pact">Competitive Analysis</h6>
                       </div>
 
                       <div class="small-12 medium-8 columns"><!-- section body -->
 
-                        <p>Assuming parents as primary users, their contexts-of-use would
-                        be busy, with a degree of stress having just finished work
-                        and needing to head to a game or practice. It would be
-                        rare if 100% of their attention were captured by the
-                        application on game days. It was also important to take
-                        into account the fact that I&#8217;d be designing for a
-                        wide range of individuals, of different ages, sizes,
-                        etc.</p>
-
-                        <p>The current use of technology in youth sports is inconsistent
-                        and fragmented. At best, parents may use a team centric
-                        app like
-                        <a href="https://www.teamsnap.com/" target="blank">TeamSnap</a>
-                        for organization. There are also league and team data
-                        repositories available like pointstreak.com, however
-                        their adoption is patchy across sports<a href="#footnotes">&sup1;</a>.</p>
+                        <p>
+                          Technology aimed at youth sports teams and leagues is
+                          a competitive market. Depicted above are mobile apps from
+                          three major competitors. SportsEngine and TeamSnap
+                          both take aim at the inter-team organizational aspect,
+                          with slightly different takes. For example, SportsEngine
+                          also offers a sport specific CMS for teams building
+                          their own websites. GameChanger targets fans and
+                          coaches alike &mdash; acting as a database for game
+                          statistics that fans can follow in real time, and coaches
+                          can mine for insights. There are also league and team
+                          data repositories available like
+                          <a href="http://pointstreak.com/" target="_blank">
+                          pointstreak.com
+                          </a>
+                          , however their adoption is patchy across sports<a href="#footnotes">&sup1;</a>.</p>
 
                       </div>
               </div>
@@ -243,9 +214,9 @@
                         <p>Three main flows were designed for the prototype:</p>
 
                         <ol>
-                          <li  class="num-list">Channel-style group/individual messaging</li>
+                          <li  class="num-list">Create new channel based on relevant topics</li>
+                          <li  class="num-list">Group Channels &amp; Direct Messaging</li>
                           <li  class="num-list">Public team profiles</li>
-                          <li  class="num-list">Pre-game notification/invite to auto-created game channel</li>
                         </ol>
 
                       </div>
@@ -273,19 +244,19 @@
                         guidelines. Components like cards and list elements were
                         incorporated to divide and highlight different content.</p>
 
-                        <p>The colour scheme defaults to white for new teams/users,
-                        however team members would have the option to customize
-                        their UI. In the example depicted, the fictional St.
-                        Pats updated their colour scheme to match their logo. All photographs
+                        <p>All photographs
                         used were sourced from <a href="https://unsplash.com/" target="blank">Unsplash.com</a>.</p>
 
                       </div>
               </div>
 
 
-        <!-- Channels -->
+
+        <!-- Public -->
               <!-- ADD GIF HERE -->
-                <video class="video-mov-gif" controls="controls" width="280" height="auto" name="Add new channel, direct message" src="img/run-of-play/channels-new.mov"></video>
+              <div class="project-img-full-width">
+                    <img src="img/run-of-play/new-channel.gif" class="mobile-gifs"/>
+              </div>
 
               <!-- Text area -->
               <div class="row text-area-padding">
@@ -309,14 +280,14 @@
 
         <!-- Public -->
               <!-- ADD GIF HERE -->
-
-                <video class="video-mov-gif" controls="controls" width="280" height="auto" name="View Public Team Profiles" src="img/run-of-play/team-profile.mov"></video>
-
+              <div class="project-img-full-width">
+                    <img src="img/run-of-play/team-channel.gif" class="mobile-gifs"/>
+              </div>
 
               <!-- Text area -->
               <div class="row text-area-padding">
                       <div class="small-12 medium-4 columns"><!-- section title -->
-                          <h6>Public Profiles</h6>
+                          <h6>Team &amp; Player Profiles</h6>
                       </div>
 
                       <div class="small-12 medium-8 columns"><!-- section body -->
@@ -351,12 +322,12 @@
 
                       <!-- #1 -->
                       <p id="footnotes" class="footnote-style">
-                        &sup1; <a href="http://pointstreak.com/" target="blank">Pointstreak.com</a> is used
+                        &sup1; Pointstreak.com is used
                         primarily for amateur hockey leagues, however similar
                         repositories are not available for other sports, like
                         soccer (in Canada).
                         <br />
-                        <a href="#pact">(back to PACT Analysis)</a>
+                        <a href="#pact">(back to Competitive Analysis)</a>
                       </p>
 
                 </div>
@@ -390,7 +361,7 @@
 
           <!-- Link Cycle -->
           <!-- Page Back -->
-                  <a href="housing.html" class="small-6 medium-3 columns footer-arrows col-switch footer-grey-text">
+                  <a href="index.html" class="small-6 medium-3 columns footer-arrows col-switch footer-grey-text">
 
                                 <!-- arrow left -->
                               <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -400,7 +371,7 @@
                               </svg>
 
                               <div>
-                              Toronto Housing Visualization
+                              Home
                               </div>
                   </a>
 

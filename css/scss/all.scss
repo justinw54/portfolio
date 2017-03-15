@@ -122,6 +122,7 @@ Global Styles
         display: block;
         text-decoration: none;
         transition: color 0.25s;
+        line-height: 120%;
       }
 
       span {
@@ -230,23 +231,19 @@ Specific Element Styles
   }
 
   .home-connect {
+    font-family: $gen-font;
     display: inline-block;
-    text-transform: uppercase;
-    font-size: 0.9em;
-    padding-bottom: 0.65rem;
-    width: 5rem;
+    font-size: 1.0em;
+    padding-bottom: 0.35rem;
     text-align: center;
   }
 
-  .index-images-btm {
-    margin-bottom: 2rem;
-  }
 
 /* ================ WORK / All ==================== */
 
 .gallery { //mobile sizing
-      margin-top: 4.5rem;
-      padding-bottom: 6rem;
+      margin-top: 1.5rem;
+      padding-bottom: 2.25rem;
 
       img {
         height: auto;
@@ -277,7 +274,7 @@ Specific Element Styles
       opacity: .45;
       color: $rich-black;
     }
-
+    .gif-test {}
 
 
 

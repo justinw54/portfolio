@@ -69,9 +69,9 @@ footer {
 header ul li {
 font: {
   family: $gen-font;
-  size: 0.9em;
+  size: 1.0em;
 }
-text-transform: uppercase;
+//text-transform: uppercase;
 letter-spacing: 0.05em;
 }
 
@@ -86,8 +86,8 @@ letter-spacing: 0.05em;
 
   //numbered-lists -> copy <p>
 .num-list {
-  font-family: $body-font;
-  font-size: 1.05em;
+  font-family: $gen-font;
+  font-size: 1.15em;
   line-height: 1.8em;
 }
 
@@ -108,11 +108,6 @@ letter-spacing: 0.05em;
 }
 
 
-.home-connect {
-  font-family: $gen-font;
-  font-size: 1.15em;
-}
-
   //footer links, mobile
 .footer-text-links {
   font: {
@@ -124,6 +119,9 @@ letter-spacing: 0.05em;
   margin-top: 2rem;
   margin-bottom: 2.5em;
 }
+
+
+
 
 
 //TABLET
@@ -163,10 +161,10 @@ letter-spacing: 0.05em;
 
 //DESKTOP
 @media screen and (min-width: 55em) {
-  h3 { font-size: 1.25em; }
+  h3 { font-size: 1.55em; }
 
   h4 {
-  font-size: 0.85em;
+  font-size: 1.0em;
   line-height: 140%;
   }
 
@@ -183,7 +181,7 @@ letter-spacing: 0.05em;
   .footnote-style { font-size: 0.95em; }
 
   .num-list {
-    font-size: 1.15em;
+    font-size: 1.25em;
     line-height: 1.65em;
   }
 
