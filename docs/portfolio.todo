@@ -1,0 +1,62 @@
+
+Initializing:
+  ✔ Backup to github @done(2018-04-09 14:37) @project(Initializing)
+  ✔ duplicate folder. @done(2018-04-09 14:37) @project(Initializing)
+  ✔ Init Sass. @done(2018-04-09 14:38) @project(Initializing)
+  ✔ Delete bnn, @done(2018-04-09 14:42) @project(Initializing)
+  ✔ Diagnose the problem @done(2018-04-09 15:17) @project(Initializing)
+  ✔ Clean up var.scss @done(2018-04-09 15:23) @project(Initializing)
+  ✔ Move all projects to /projects, update links. @done(2018-04-09 15:27) @project(Initializing)
+
+General Edits:
+  ✔ Background color / text color @done(2018-04-09 15:27) @project(General Edits)
+  ✔ Upload Gibson fonts. @done(2018-04-09 15:42) @project(General Edits)
+  ✔ Projects: wrap images to max-width. @done(2018-04-09 16:28) @project(General Edits)
+  ✔ How to manage colour by projects @done(2018-04-09 16:32) @project(General Edits)
+
+
+Landing:
+  ☐ Navigation:
+    ✔ Logo (CSS) @done(2018-04-09 16:57) @project(Landing / ☐ Navigation)
+    ✔ Hover State @done(2018-04-09 16:57) @project(Landing / ☐ Navigation)
+    ✔ Contact > link to mailto:justin.gj.white@gmail.com @done(2018-04-09 16:59) @project(Landing / ☐ Navigation)
+
+
+  ☐ Landing:
+    ✔ typeset deck / change text. @done(2018-04-09 17:19) @project(Landing / ☐ Landing)
+    ✔ Featured thumbnail @done(2018-04-09 17:39) @project(Landing / ☐ Landing)
+    ✔ 2X grid, thumbnails @done(2018-04-09 17:49) @project(Landing / ☐ Landing)
+
+
+  ☐ Footer:
+    ✔ Add linework @done(2018-04-09 20:35) @project(Landing / ☐ Footer)
+
+Envelopes:
+  ✔ Design header @done(2018-04-09 21:19) @project(Envelopes)
+  ☐ Add copy / imgs
+  ☐ Add framer mp4
+  ✔ Fix the header image problem. @done(2018-04-09 22:29) @project(Envelopes)
+
+Website:
+  ☐ Destroy semplice
+  ☐ Upload web files
+  ☐ Set up coming soon as home pages
+
+RL Solutions:
+  ☐ Fill out form.
+
+
+Interactivity:
+  ☐ Link hover
+  ☐ Mark, Contact hover
+
+Backlog:
+  ☐ Code Re/Factor.
+      ☐ Project header images; unified heights.
+  ☐ Component based web development
+  ☐ Adding ++interactivity.
+  ☐ Set max-width, padding at smaller devices.
+  ☐ Better colour management
+  ☐ Navigation (sticky?)
+  ☐ Higher Resolution Images
+  ☐ Footer Reveal

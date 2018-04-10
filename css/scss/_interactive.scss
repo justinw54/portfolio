@@ -1,63 +1,161 @@
-//all interactivity here
 
-//<a> link hovers
 a {
   color:inherit;
 }
 
-  body.dark {
+body {
+
     a {
       transition: color 0.25s ease 0.05s;
-      color: $primary-text;
     }
+
     a:hover {
       color: $primary-accent;
     }
-  }
-
-  body {
-    a {
-      transition: color 0.25s ease 0.05s;
-      color: $secondary-accent;
-    }
-    a:hover {
-      color: $primary-accent;
-    }
-  }
-
-  .nav-links-white {
-    transition: color 0.25s ease 0.05s;
-    color: $med-grey;
-  }
-  .nav-links-white:hover {
-    color: $secondary-accent
-  }
-
-//Project Card Hover, both backgrounds.
-.borders-white:hover{ //place on project cards only, same div level
-    border: 1px solid $primary-accent;
-    box-shadow: -9px 9px 0 $primary-accent;
 
 }
-.borders-black:hover {
-  border: 1px solid $secondary-accent;
-  box-shadow: -9px 9px 0 $secondary-accent;
+
+
+.mark:hover {
+  background-color: #000;
+  color: #fff;
+  border-color: #fff;
+
 }
 
-  //hover on footer text
-.footer-grey-text:hover {
-  color: $secondary-accent;
+
+.nav-links-white {
+  transition: color 0.25s ease 0.05s;
+  color: $med-grey;
 }
 
-//Navigation bar hover
-.darken,
+
 .tint {
   transition: background-color 0.2s ease 0.05s;
 }
 
-.darken:hover {
-  background-color: darken($primary-bkgd, 4%);
-}
+
 .tint:hover {
-  background-color: darken($secondary-bkgd, 6%);
+  background-color: darken($primary-bkgd, 6%);
+}
+
+
+
+
+/* ==========================================================================
+   The Port: Banner & Parallax
+   ========================================================================== */
+   .parallax {
+     width: 100%;
+     height: auto;
+   }
+
+
+        /* Parallax Container  */
+        #little-current {
+          height: 320px;
+            overflow: hidden;
+            position: relative;
+
+
+            @media screen and (min-width: 40em) {
+                height: 640px;
+            }
+
+            @media screen and (min-width: 55em) {
+                height: 860px;
+            }
+        }
+
+            #little-current .layer {
+                height: 320px;
+                background-position: top center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                width: 100%;
+                position: absolute;
+                z-index: -1;
+
+                @media screen and (min-width: 40em) {
+                    height: 640px;
+                }
+
+                @media screen and (min-width: 55em) {
+                    height: 860px;
+                }
+            }
+
+
+        /* keyart frames */
+        .layer.layer-00 {
+            background-image: url('../img/the-port/banner/keyart-1-a-1.png');
+            width: 100%;
+        }
+
+        .layer.layer-01 {
+            background-image: url('../img/the-port/banner/keyart-2.png');
+            width: 100%;
+        }
+
+        .layer.layer-02 {
+            background-image: url('../img/the-port/banner/keyart-3_banner.png');
+            width: 100%;
+            animation-name: up-down;
+            animation-direction: alternate;
+            animation-timing-function: linear;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+
+        .layer.layer-03 {
+            background-image: url('../img/the-port/banner/keyart-4_banner.png');
+            width: 100%;
+            animation-name: down-up;
+            animation-direction: alternate;
+            animation-timing-function: linear;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+
+        .layer.layer-04 {
+            background-image: url('../img/the-port/banner/keyart-5_banner.png');
+            width: 100%;
+            animation-name: up-down;
+            animation-direction: alternate;
+            animation-timing-function: linear;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+
+
+/*  ==========================================================================
+    Animations
+    ========================================================================== */
+
+@keyframes up-down {
+    0% {
+        top: 0%;
+    }
+
+    50% {
+        top: 0.75%;
+    }
+
+    100% {
+        top: 1.25%;
+    }
+}
+
+@keyframes down-up {
+    0% {
+        top: 1.25%;
+    }
+
+    50% {
+        top: 0.75%;
+    }
+
+    100% {
+        top: 0%;
+    }
 }

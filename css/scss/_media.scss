@@ -1,0 +1,26 @@
+
+
+
+.video-mov-gif {
+  height: auto;
+  width: 240px;
+  display: block;
+  margin: 0 auto;
+
+  @media screen and (min-width: 40em) {
+    width: 320px;
+  }
+}
+
+
+.img-small {
+  width: 280px; //mobile
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  @include shadow;
+
+  @media screen and (min-width: 40em) {
+    width: 480px; //tablet, desktop
+  }
+}

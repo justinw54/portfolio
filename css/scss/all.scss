@@ -1,97 +1,33 @@
-// Stylesheets, portfolio site v2
-// Justin White, Dec-15-2016
 
 
-//all variables: color, type, etc.
 @import 'var';
-
-//interactivity
 @import 'interactive';
-
-//Typographic Styles
 @import 'type';
+@import 'media';
+@import 'animation';
 
-/* ========================================
-Global Styles
-===========================================
-*/
+body {
+  background-color: $primary-bkgd;
+  color: $primary-text;
+}
 
+.housing-bkgd { background: #f5f5fa; }
+.the-port-bkgd { background: #B4E9FF; }
+.run-of-play-bkgd { background: #5E98FF; }
 
-//Dark Background pages
+/* Spacing */
+.twenty-four { margin-top: 24px; }
+.forty-eight { margin-top: 48px; }
+.sixty-four { margin-top: 64px; }
+.hundred-twenty { margin-top: 120px; }
 
-    .dark {//for home page only; colors background.
-      background-color: $primary-bkgd;
-      color: $primary-text; //white
-    }
-
-    .primary-span {
-      border-bottom: 8px solid $primary-accent;
-    }
-
-    .secondary-span {
-      border-bottom: 8px solid $secondary-accent;
-    }
-
-    .hairlines-white {
-      border-bottom: 1px solid rgba(255,255,255,0.1);
-    }
-
-    .borders-white {
-      border: 1px solid rgba(255,255,255,0.1);
-    }
-
-//Light Background Pages
-
-    body {
-      background-color: $secondary-bkgd;
-      color: $rich-black;
-
-    }
-
-  .hairlines-black {
-    border-bottom: 1px solid rgba(0,0,0,0.1);
-  }
-
-  .borders-black {
-    border: 1px solid rgba(0,0,0,0.1);
-  }
-
-
-
-//Titles, per page
-  .page-title {
-    padding: 2rem 0 2rem 0;
-  }
-
-
-//movie styling.
-  .video-mov-gif {
-    height: auto;
-    width: 240px;
-    display: block;
-    margin: 0 auto;
-    @include shadow;
-
-    @media screen and (min-width: 40em) {
-      width: 320px;
-    }
-  }
-
-  //Contained-width images
-  .img-small {
-    width: 280px; //mobile
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    @include shadow;
-
-    @media screen and (min-width: 40em) {
-      width: 480px; //tablet, desktop
-    }
-  }
+/* normal use */
+.float-right {
+  position: relative;
+  float: right;
+}
 
   /* ================ Header ==================== */
-
 
   header {
 
@@ -100,193 +36,78 @@ Global Styles
       margin-top: 1rem;
 
       li {
-        /*
-        display: inline-block;
-        padding: 0.75rem;*/
         list-style: none;
         display: inline-flex;
         justify-content: center;
         align-items: center;
         height: 4.65rem;
         width: 5rem;
-
       }
 
-      .header-logo {
-        line-height: 110%;
+      .mark {
+        line-height: 120%;
         text-transform: capitalize;
         text-align: center;
-      }
-
-      a {
-        display: block;
-        text-decoration: none;
-        transition: color 0.25s;
-        line-height: 120%;
-      }
-
-      span {
-        background-color: $primary-accent;
-        display: block;
-        height: 8px;
-        position: absolute;
-        transition: left 0.25s, width 0.25s;
+        border: 1px solid #000;
+        transition: color 0.25s, background-color 0.25s, ease 0.25s;
       }
     }
   }
 
 
 
-
-
-
-
-/* ================ Footer ==================== */
-
-      footer {
-          padding: 3rem 0 6rem 0;
-          text-align: center;
-
-          svg {
-            width: 4rem;
-          }
-      }
-
-      .footer-copyright {
-        display: block;
-        text-align: center;
-        padding: 1rem 0 0.35rem 0;
-      }
-
-      .footer-media-links {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 2.5rem;
-
-        //mobile sizes
-        a {
-          display: inline-block;
-          margin: 0 0.75rem;
-          }
-
-        @media screen and (min-width: 40em) {
-          margin-bottom: 0;
-
-          a {
-            margin: 0 0.5rem;
-          }
-        }
-      }
-
-      .footer-grey-text {
-        color: $med-grey;
-      }
-
-
-      .footer-arrows {
-        display: flex;
-
-        svg {
-          height: 2rem;
-          width: auto;
-          padding-bottom: 12px;
-          }
-
-      }
-
-      .align-right {
-        justify-content: flex-end;
-      }
-
-      .col-switch {
-        order: 0;
-      }
-
-      @media screen and (min-width: 40em) {
-        .footer-media-links {
-          display: inline-block;
-        }
-
-        .col-switch {
-          order: -1;
-        }
-      }
-
-/* ========================================
-Specific Element Styles
-===========================================
-*/
-
-
-
-
-/* ================ HOMEPAGE /hero ==================== */
-
-  #hero {
-    padding: 8rem 0 10rem 0;
-
-    h1 {
-      margin: 10px 0 60px 0;
-    }
-  }
-
-  .home-connect {
-    font-family: $gen-font;
-    display: inline-block;
-    font-size: 1.0em;
-    padding-bottom: 0.35rem;
-    text-align: center;
+/* ================ Styling ==================== */
+  footer {
+      padding: 128px 0 160px 0;
+      text-align: left;
   }
 
 
-/* ================ WORK / All ==================== */
 
-.gallery { //mobile sizing
-      margin-top: 1.5rem;
-      padding-bottom: 2.25rem;
-
-      img {
-        height: auto;
-        width: 100%;
-      }
+.page-title {
+  padding: 2rem 0 2rem 0;
 }
 
-    .projects-cards {
+.project-label {
+    margin-top: 12px;
 
-      padding-bottom: 0.75rem;
-      margin-bottom: 3rem;
+    h3 { margin-bottom: 4px; }
+}
 
-      transition: all 0.25s;
-    }
 
-    .project-cards-title {
-      padding-top: 1.5rem;
 
-    }
 
-    .project-cards-deck {
-      margin-top: 1.75rem;
+#deck {
+  padding: 120px 0 160px 0;
+}
 
-    }
+.project-header {
+  width: 100%;
+  background-color: $envelopes;
 
-    .project-cards-caption {
-      padding-top: 1.25rem;
-      opacity: .45;
-      color: $rich-black;
-    }
-    .gif-test {}
+  .title {
+    text-align: center;
+    margin-top: 24px;
+  }
+
+  /* fix this */
+  .img-container {
+    background-color: $envelopes;
+  }
+
+
+}
+
+
+
+
 
 
 
 /* ================ PROJECT PAGES /all ==================== */
 
-  .project-pages > img {
-    width: 100%;
-    height: auto;
-  }
 
-
-  .text-area-padding { //mobile
+  .project-text { //mobile
     padding-top: 1.25rem;
     padding-bottom: 3rem;
 
@@ -294,223 +115,4 @@ Specific Element Styles
       padding-top: 2.5rem;
       padding-bottom: 4rem;
     }
-  }
-
-  .project-img-full-width {
-
-    img {
-      margin: 0 auto;
-      display: block;
-      max-height: 640px;
-    }
-  }
-
-  .big-bloom-dash {
-    width: 92%;
-    max-width: 1200px;
-    height: auto;
-    margin: 0 auto;
-    display: block;
-  }
-
-
-
-  /* ================ ABOUT ==================== */
-
-    .about-bio-picture {
-      width: 50%;
-      display: block;
-      margin: 0 auto;
-      margin-bottom: 2rem;
-      height: auto;
-      border-radius: 50%;
-
-      @media screen and (min-width: 40em) {
-        width: 75%;
-        max-width: 240px;
-        margin: 0;
-      }
-    }
-
-    .about-timeline-entry {
-      margin-bottom: 2rem;
-      display: flex;
-    }
-
-    //Images; customized css
-      .about-ysdn {
-        height: 64px;
-      }
-      .about-cppib {
-        height: 42px;
-      }
-      .about-state-street {
-        height: 110px;
-      }
-      .about-uwo {
-        height: 96px;
-      }
-
-      .connect-detail {
-        display: flex;
-        align-items: center;
-        margin-top: 1.75rem;
-
-        @media screen and (min-width: 40em) {
-          margin-top: 0;
-        }
-      }
-      .connect-indicator {
-          border-bottom: 8px solid $secondary-accent;
-      }
-
-
-
-/* ==========================================================================
-   The Port: Banner & Parallax
-   ========================================================================== */
-   .parallax {
-     width: 100%;
-     height: auto;
-   }
-
-
-        /* Parallax Container  */
-        #little-current {
-          height: 320px;
-            overflow: hidden;
-            position: relative;
-
-
-            @media screen and (min-width: 40em) {
-                height: 640px;
-            }
-
-            @media screen and (min-width: 55em) {
-                height: 860px;
-            }
-        }
-
-            #little-current .layer {
-                height: 320px;
-                background-position: top center;
-                background-size: cover;
-                background-repeat: no-repeat;
-                width: 100%;
-                position: absolute;
-                z-index: -1;
-
-                @media screen and (min-width: 40em) {
-                    height: 640px;
-                }
-
-                @media screen and (min-width: 55em) {
-                    height: 860px;
-                }
-            }
-
-
-        /* keyart frames */
-        .layer.layer-00 {
-            background-image: url('../img/the-port/banner/keyart-1-a-1.png');
-            width: 100%;
-        }
-
-        .layer.layer-01 {
-            background-image: url('../img/the-port/banner/keyart-2.png');
-            width: 100%;
-        }
-
-        .layer.layer-02 {
-            background-image: url('../img/the-port/banner/keyart-3_banner.png');
-            width: 100%;
-            animation-name: up-down;
-            animation-direction: alternate;
-            animation-timing-function: linear;
-            animation-duration: 2s;
-            animation-iteration-count: infinite;
-        }
-
-        .layer.layer-03 {
-            background-image: url('../img/the-port/banner/keyart-4_banner.png');
-            width: 100%;
-            animation-name: down-up;
-            animation-direction: alternate;
-            animation-timing-function: linear;
-            animation-duration: 2s;
-            animation-iteration-count: infinite;
-        }
-
-        .layer.layer-04 {
-            background-image: url('../img/the-port/banner/keyart-5_banner.png');
-            width: 100%;
-            animation-name: up-down;
-            animation-direction: alternate;
-            animation-timing-function: linear;
-            animation-duration: 2s;
-            animation-iteration-count: infinite;
-        }
-
-
-/*  ==========================================================================
-    Animations
-    ========================================================================== */
-
-@keyframes up-down {
-    0% {
-        top: 0%;
-    }
-
-    50% {
-        top: 0.75%;
-    }
-
-    100% {
-        top: 1.25%;
-    }
-}
-
-@keyframes down-up {
-    0% {
-        top: 1.25%;
-    }
-
-    50% {
-        top: 0.75%;
-    }
-
-    100% {
-        top: 0%;
-    }
-}
-
-
-
-
-
-/*  ==========================================================================
-    Backgrounds
-    ========================================================================== */
-
-
-    .housing-bkgd {
-      background: #f5f5fa;
-    }
-
-  .the-port-bkgd {
-    background: #B4E9FF;
-
-  }
-
-  .run-of-play-bkgd {
-    background: #5E98FF;
-  }
-
-  .bnn-bkgd {
-    background: #FF5A68;
-  }
-
-  .big-bloom-bkgd {
-    background: #C3B8F9;
-
   }

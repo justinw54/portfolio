@@ -2,23 +2,20 @@
 // Portfolio Site, v2
 //Dec-15-2016
 
-//Colors in use:
-$black: rgba(0,0,0,1);
 
-$primary-bkgd: #003b6f;  //rgba(25, 18, 30,1);
-$primary-text: rgba(255, 255, 255, 1);
-$primary-accent: #00ff99;   //rgba(225, 55, 50, 1);
+/* Colors */
+$primary-bkgd: rgba(255, 255, 255, 1);
+$primary-text: rgba(35, 35, 35, 1);
+$primary-accent: rgba(0, 160, 247, 1);
 
-$secondary-accent: #3333ff;   //rgba(110, 95, 200,1);
-$secondary-bkgd: rgba(255, 255, 255, 1);
-
-$med-grey: rgba(135, 135, 135, 1); //#878787
+$med-grey: rgba(135, 135, 135, 1);
 $rich-black: rgba(35, 35, 35, 1);
 
+$envelopes: rgba(212,255,227,1);
 
-$display-font: 'HarpersGrotesque-Medium','Work Sans', helvetica, sans-serif;
-$gen-font: helvetica, sans-serif; //Sofia-Pro, Typekit
-$body-font: 'FinancierTextWeb', 'times', sans-serif;
+/* Fonts */
+$display-font: 'Gibson-SemiBold', helvetica, sans-serif;
+$body-font: 'Gibson-Regular', helvetica, sans-serif;
 
 
 @mixin shadow {

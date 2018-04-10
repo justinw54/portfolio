@@ -1,0 +1,24 @@
+/*
+Webfont imports.
+*/
+
+@font-face {
+  font-family: 'Gibson-Regular';
+  src: url('webfonts/Gibson-Regular-webfont.eot');
+  src: url('webfonts/Gibson-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('webfonts/Gibson-Regular-webfont.woff') format('woff'),
+}
+
+@font-face {
+  font-family: 'Gibson-SemiBold';
+  src: url('webfonts/Gibson-SemiBold-webfont.eot');
+  src: url('webfonts/Gibson-SemiBold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('webfonts/Gibson-SemiBold-webfont.woff') format('woff'),
+}
+
+@font-face {
+  font-family: 'Gibson-Italic';
+  src: url('webfonts/Gibson-Italic-webfont.eot');
+  src: url('webfonts/Gibson-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+  url('webfonts/Gibson-Italic-webfont.woff') format('woff'),
+}
