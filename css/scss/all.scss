@@ -5,15 +5,12 @@
 @import 'type';
 @import 'media';
 @import 'animation';
+@import 'projects';
 
 body {
   background-color: $primary-bkgd;
   color: $primary-text;
 }
-
-.housing-bkgd { background: #f5f5fa; }
-.the-port-bkgd { background: #B4E9FF; }
-.run-of-play-bkgd { background: #5E98FF; }
 
 /* Spacing */
 .twenty-four { margin-top: 24px; }
@@ -26,6 +23,8 @@ body {
   position: relative;
   float: right;
 }
+
+
 
   /* ================ Header ==================== */
 
@@ -55,11 +54,45 @@ body {
   }
 
 
+.project-header {                         /* Component across project pages */
+  width: 100%;
+
+  .title {
+    text-align: center;
+    margin-top: 24px;
+  }
+}
+
+
+
+
+
+
 
 /* ================ Styling ==================== */
+
+.wrapper {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  position: relative;
+  z-index: 2; /* Stacking */
+  padding-bottom: 180px;
+  margin-bottom: 100vh;
+}
+
+
   footer {
-      padding: 128px 0 160px 0;
-      text-align: left;
+    padding-top: 120px;
+
+    text-align: left;
+    background-color: #000;
+    color: #fff;
+
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
   }
 
 
@@ -76,27 +109,16 @@ body {
 
 
 
+.envelopes {
+  background-color: $envelopes;
+}
+
 
 #deck {
   padding: 120px 0 160px 0;
 }
 
-.project-header {
-  width: 100%;
-  background-color: $envelopes;
 
-  .title {
-    text-align: center;
-    margin-top: 24px;
-  }
-
-  /* fix this */
-  .img-container {
-    background-color: $envelopes;
-  }
-
-
-}
 
 
 

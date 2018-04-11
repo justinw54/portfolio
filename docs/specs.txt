@@ -1,0 +1,8 @@
+
+
+Header image proportion:
+1.5:1
+
+
+Project image proportions:
+2000 x 1333

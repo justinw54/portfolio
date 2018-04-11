@@ -1,0 +1,16 @@
+
+
+.envelopes {
+    @extend .project-header;
+    background-color: $envelopes;
+}
+
+.run-of-play {
+    @extend .project-header;
+    background-color: $play;
+}
+
+.qep {
+  @extend .project-header;
+  background-color: $qep;
+}
