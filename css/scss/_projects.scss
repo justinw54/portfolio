@@ -1,16 +1,26 @@
 
 
+
+.project-header {                         /* Component across project pages */
+  width: 100%;
+
+  .title {
+    text-align: center;
+    margin-top: 24px;
+  }
+}
+
 .envelopes {
-    @extend .project-header;
+    // @extend .project-header;
     background-color: $envelopes;
 }
 
 .run-of-play {
-    @extend .project-header;
+    // @extend .project-header;
     background-color: $play;
 }
 
 .qep {
-  @extend .project-header;
+  // @extend .project-header;
   background-color: $qep;
 }

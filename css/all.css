@@ -553,6 +553,13 @@ video {
     bottom: 0px; }
   100% {
     bottom: 0px; } }
+.project-header {
+  /* Component across project pages */
+  width: 100%; }
+  .project-header .title {
+    text-align: center;
+    margin-top: 24px; }
+
 .envelopes {
   background-color: #d4ffe3; }
 
@@ -601,13 +608,6 @@ header ul {
     text-align: center;
     border: 1px solid #000;
     transition: color 0.25s, background-color 0.25s, ease 0.25s; }
-
-.project-header, .envelopes, .run-of-play, .qep {
-  /* Component across project pages */
-  width: 100%; }
-  .project-header .title, .envelopes .title, .run-of-play .title, .qep .title {
-    text-align: center;
-    margin-top: 24px; }
 
 /* ================ Styling ==================== */
 .wrapper {
