@@ -7,6 +7,8 @@ Webfont imports.
   src: url('webfonts/Gibson-Regular-webfont.eot');
   src: url('webfonts/Gibson-Regular-webfont.eot?#iefix') format('embedded-opentype'),
   url('webfonts/Gibson-Regular-webfont.woff') format('woff'),
+  url('webfonts/Gibson-Regular.woff2') format('woff2'),
+  url('webfonts/Gibson-Regular.ttf') format('truetype');
 }
 
 @font-face {
@@ -14,11 +16,16 @@ Webfont imports.
   src: url('webfonts/Gibson-SemiBold-webfont.eot');
   src: url('webfonts/Gibson-SemiBold-webfont.eot?#iefix') format('embedded-opentype'),
   url('webfonts/Gibson-SemiBold-webfont.woff') format('woff'),
+  url('webfonts/Gibson-SemiBold.woff2') format('woff2'),
+  url('webfonts/Gibson-SemiBold.ttf') format('truetype');
 }
+
 
 @font-face {
   font-family: 'Gibson-Italic';
   src: url('webfonts/Gibson-Italic-webfont.eot');
   src: url('webfonts/Gibson-Italic-webfont.eot?#iefix') format('embedded-opentype'),
   url('webfonts/Gibson-Italic-webfont.woff') format('woff'),
+  url('webfonts/Gibson-Italic.woff2') format('woff2'),
+  url('webfonts/Gibson-Italic.ttf') format('truetype');
 }

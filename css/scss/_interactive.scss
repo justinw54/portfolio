@@ -1,43 +1,47 @@
 
-a {
-  color:inherit;
-}
-
-body {
+/* Interactions */
 
     a {
-      transition: color 0.25s ease 0.05s;
+      color:inherit;
+      // transition: background-color 0.25s ease 0.05s;
     }
 
     a:hover {
-      color: $primary-accent;
+      background-color: #000;
+      color: #fff;
+      animation-duration: 0.25s;
+      animation-name: cmyk;
+      animation-iteration-count: 1;
+      animation-timing-function: linear;
+
+      .arrow {
+        stroke: #fff;
+      }
     }
 
-}
+    @keyframes cmyk {
+      0% { background-color: rgba(0,255,255,1);  /* cyan */ }
+      30% { background-color: rgba(255,0,255,1);  /* magenta */ }
+      60% { background-color: rgba(255,255,0,1);  /* yellow */ }
+      100% { background-color: rgba(0,255,255,1);  /* black */ }
+    }
+
+    .footer-link {  /* not sure why i have to do this. */
+      display: inline-block;
+
+      h4 {
+        margin-bottom: 0;
+      }
+    }
 
 
-.mark:hover {
-  background-color: #000;
-  color: #fff;
-  border-color: #fff;
 
-}
-
-
-.nav-links-white {
-  transition: color 0.25s ease 0.05s;
-  color: $med-grey;
-}
-
-
-.tint {
-  transition: background-color 0.2s ease 0.05s;
-}
-
-
-.tint:hover {
-  background-color: darken($primary-bkgd, 6%);
-}
+    .tint {
+      transition: background-color 0.2s ease 0.05s;
+    }
+    .tint:hover {
+      background-color: darken($primary-bkgd, 5%);
+    }
 
 
 

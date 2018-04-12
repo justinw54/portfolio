@@ -12,18 +12,22 @@ $med-grey: rgba(135, 135, 135, 1);
 $rich-black: rgba(35, 35, 35, 1);
 
 $envelopes: rgba(212,255,227,1);
-$play: rgba(209,228,255,1);
+$play: rgba(255, 248, 232, 1);
 $qep: rgba(234,239,255,1);
-
-.housing-bkgd { background: #f5f5fa; }
-.the-port-bkgd { background: #B4E9FF; }
-.run-of-play-bkgd { background: #5E98FF; }
 
 
 
 /* Fonts */
 $display-font: 'Gibson-SemiBold', helvetica, sans-serif;
 $body-font: 'Gibson-Regular', helvetica, sans-serif;
+
+
+/* spacing */
+$small: 24px;
+$medium: 48px;
+$large: 96px;
+$x-large: 160px;
+
 
 
 @mixin shadow {

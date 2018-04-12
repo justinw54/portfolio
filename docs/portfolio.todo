@@ -1,52 +1,59 @@
 
 
-✔ Favicon. @done(2018-04-10 10:55)
-✔ Set up project pages / links. @done(2018-04-10 10:58)
-
+Navigation:
+  ✔ Re-structure landing (nav - remove) @done(2018-04-12 14:29) @project(Navigation)
+  ✔ Remove box around Justin White. @done(2018-04-12 14:40) @project(Navigation)
+  ✔ Change to "about" @done(2018-04-12 14:40) @project(Navigation)
+  ✔ Add about.html / link. @done(2018-04-12 14:34) @project(Navigation)
+  ✔ Remove max-width. @done(2018-04-12 14:32) @project(Navigation)
+  ✔ Edit for mobile responsive @done(2018-04-12 14:32) @project(Navigation)
 
 
 Footer:
-  ✔ Reveal @done(2018-04-10 11:18) @project(Footer)
-  ✔ Black background / white text @done(2018-04-10 11:18) @project(Footer)
-  ✔ Edit line work animation. @done(2018-04-10 11:18) @project(Footer)
-  ✔ Edit bio. @done(2018-04-10 11:26) @project(Footer)
+  ✔ Gut all code. @done(2018-04-12 15:08) @project(Footer)
+  ✔ Build footer div @done(2018-04-12 15:48) @project(Footer)
+  ✔ Make mobile responsive (flexbox) @done(2018-04-12 15:48) @project(Footer)
+  ✔ Add to all pages. @done(2018-04-12 16:31) @project(Footer)
+  ✔ Update link ordering. @done(2018-04-12 16:31) @project(Footer)
+
+Mobile Responsive:
+  ✔ Divide site into Components @done(2018-04-12 17:03) @project(Mobile Responsive)
+  ✔ ..Refine code by component / responsive. @done(2018-04-12 17:03) @project(Mobile Responsive)
 
 
-✔ Edit deck line. @done(2018-04-10 12:08)
+  ✔ Update div class row across projects. @done(2018-04-12 17:08) @project(Mobile Responsive)
+  ✔ Update spacing values across projects @done(2018-04-12 17:08) @project(Mobile Responsive)
+  ✔ Add gibson type files. @done(2018-04-12 17:17) @project(Mobile Responsive)
 
-Projects, Planning:
-  ☐ Run of Play:
-    ✔ Project header images; unified heights. @done(2018-04-10 12:25) @project(Projects, Planning / ☐ Run of Play)
-    ✔ Header section @done(2018-04-10 13:13) @project(Projects, Planning / ☐ Run of Play)
-    ✔ Re/factor text sections. @done(2018-04-10 13:29) @project(Projects, Planning / ☐ Run of Play)
-    ✔ Add footer code. @done(2018-04-10 13:29) @project(Projects, Planning / ☐ Run of Play)
-    ✔ Edit title (quick) @done(2018-04-10 13:29) @project(Projects, Planning / ☐ Run of Play)
+About:
+  ✔ Add content @done(2018-04-12 17:54) @project(About)
+  ✔ Type set. @done(2018-04-12 17:54) @project(About)
+  ✔ Link hover interactions. @done(2018-04-12 18:35) @project(End of Today)
 
 
-  ☐ QEP:
-    ✔ Add page @done(2018-04-11 07:08) @project(Projects, Planning / ☐ QEP)
-    ✔ Update header @done(2018-04-11 07:09) @project(Projects, Planning / ☐ QEP)
-    ✔ Migrate copy / cut down. @done(2018-04-11 07:09) @project(Projects, Planning / ☐ QEP)
-    ☐ Migrate images
-    ☐ Add outcome
 
-  ☐ The Port:
-    ☐ update header
-    ☐ update images.
+For next:
 
-  ☐ Tressle:
-    ☐ ...
+  ☐ Animation link to home.
+  ☐ QEP slider correction
+  ☐ QEP image width correction.
+  ☐ Upload to FTP.
+
 
 
 Interactivity:
-  ☐ Link hover
-  ☐ Mark, Contact hover
-  ☐ Footer a tags
+  ✔ Link hover @done(2018-04-12 19:00) @project(Interactivity)
+    ✔ Add CMYK interaction (link hover) @done(2018-04-12 19:00) @project(Interactivity)
+
+  ☐ Footer animation:
+      ☐ Re-colour animation (black at rest)
+      ☐ Add link interaction to animation
+      ☐ Change colour on hover -> if possible.
 
 
-Design / Project Updates:
-  ☐ Thumbs, all updated.
-  (further project artifact edits)
+(next: case study updates, image quality.)
+
+
 
 
 
@@ -55,7 +62,6 @@ Backlog:
   ☐ Code Re/Factor.
   ☐ Component based web development
   ☐ Adding ++interactivity.
-  ☐ Set max-width, padding at smaller devices.
   ☐ Better colour management
   ☐ Navigation (sticky?)
   ☐ Higher Resolution Images
@@ -110,3 +116,35 @@ Website:
 
 RL Solutions:
   ✔ Fill out form. @done(2018-04-10 00:16) @project(RL Solutions)
+
+
+
+✔ Favicon. @done(2018-04-10 10:55)
+✔ Set up project pages / links. @done(2018-04-10 10:58)
+
+
+
+Footer:
+  ✔ Reveal @done(2018-04-10 11:18) @project(Footer)
+  ✔ Black background / white text @done(2018-04-10 11:18) @project(Footer)
+  ✔ Edit line work animation. @done(2018-04-10 11:18) @project(Footer)
+  ✔ Edit bio. @done(2018-04-10 11:26) @project(Footer)
+
+
+✔ Edit deck line. @done(2018-04-10 12:08)
+
+Projects, Planning:
+  ☐ Run of Play:
+    ✔ Project header images; unified heights. @done(2018-04-10 12:25) @project(Projects, Planning / ☐ Run of Play)
+    ✔ Header section @done(2018-04-10 13:13) @project(Projects, Planning / ☐ Run of Play)
+    ✔ Re/factor text sections. @done(2018-04-10 13:29) @project(Projects, Planning / ☐ Run of Play)
+    ✔ Add footer code. @done(2018-04-10 13:29) @project(Projects, Planning / ☐ Run of Play)
+    ✔ Edit title (quick) @done(2018-04-10 13:29) @project(Projects, Planning / ☐ Run of Play)
+
+
+  ☐ QEP:
+    ✔ Add page @done(2018-04-11 07:08) @project(Projects, Planning / ☐ QEP)
+    ✔ Update header @done(2018-04-11 07:09) @project(Projects, Planning / ☐ QEP)
+    ✔ Migrate copy / cut down. @done(2018-04-11 07:09) @project(Projects, Planning / ☐ QEP)
+    ✔ Migrate images @done(2018-04-11 10:52) @project(Projects, Planning / ☐ QEP)
+    ✔ Add outcome @done(2018-04-11 10:52) @project(Projects, Planning / ☐ QEP)

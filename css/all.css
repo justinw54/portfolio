@@ -1,41 +1,108 @@
 /* Colors */
-.housing-bkgd {
-  background: #f5f5fa; }
-
-.the-port-bkgd {
-  background: #B4E9FF; }
-
-.run-of-play-bkgd {
-  background: #5E98FF; }
-
 /* Fonts */
+/* spacing */
 .img-shadow {
   -webkit-box-shadow: 2px 2px 5px -1px rgba(0, 0, 0, 0.6);
   -moz-box-shadow: 2px 2px 5px -1px rgba(0, 0, 0, 0.6);
   box-shadow: 2px 2px 5px -1px rgba(0, 0, 0, 0.6); }
 
+/* Mobile. */
+body {
+  font-family: "Gibson-Regular", helvetica, sans-serif;
+  font-size: 1em; }
+
+h1 {
+  font-family: "Gibson-SemiBold", helvetica, sans-serif;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 28px; }
+
+h2 {
+  font-family: "Gibson-SemiBold", helvetica, sans-serif;
+  font-size: 2em;
+  letter-spacing: -0.025em;
+  line-height: 1em; }
+
+h3 {
+  font-family: "Gibson-Regular", helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 21px; }
+
+h4 {
+  font-family: "Gibson-Regular", helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 22px; }
+
+h5 {
+  font-family: "Gibson-Regular", helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase; }
+
+h6 {
+  font-family: "Gibson-SemiBold", helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px; }
+
+/* Highlights / bolding */
+p {
+  font-size: 16px;
+  line-height: 24px; }
+
+footer {
+  font-family: "Gibson-Regular", helvetica, sans-serif;
+  font-size: 0.9em; }
+  footer p {
+    margin-bottom: 6px; }
+  footer h4 {
+    margin-bottom: 24px; }
+
+header ul li {
+  font-family: "Gibson-Regular", helvetica, sans-serif;
+  font-size: 1.0em;
+  letter-spacing: 0.05em; }
+
+.bold {
+  font-family: "Gibson-SemiBold", helvetica, sans-serif; }
+
+/* Interactions */
 a {
   color: inherit; }
 
-body a {
-  transition: color 0.25s ease 0.05s; }
-body a:hover {
-  color: #00a0f7; }
-
-.mark:hover {
+a:hover {
   background-color: #000;
   color: #fff;
-  border-color: #fff; }
+  animation-duration: 0.25s;
+  animation-name: cmyk;
+  animation-iteration-count: 1;
+  animation-timing-function: linear; }
+  a:hover .arrow {
+    stroke: #fff; }
 
-.nav-links-white {
-  transition: color 0.25s ease 0.05s;
-  color: #878787; }
+@keyframes cmyk {
+  0% {
+    background-color: cyan;
+    /* cyan */ }
+  30% {
+    background-color: magenta;
+    /* magenta */ }
+  60% {
+    background-color: yellow;
+    /* yellow */ }
+  100% {
+    background-color: cyan;
+    /* black */ } }
+.footer-link {
+  /* not sure why i have to do this. */
+  display: inline-block; }
+  .footer-link h4 {
+    margin-bottom: 0; }
 
 .tint {
   transition: background-color 0.2s ease 0.05s; }
 
 .tint:hover {
-  background-color: #f0f0f0; }
+  background-color: #f2f2f2; }
 
 /* ==========================================================================
    The Port: Banner & Parallax
@@ -124,146 +191,11 @@ body a:hover {
     top: 0.75%; }
   100% {
     top: 0%; } }
-/* Mobile. */
-body {
-  font-family: "Gibson-Regular", helvetica, sans-serif;
-  font-size: 1em; }
-
-h1 {
-  font-family: "Gibson-SemiBold", helvetica, sans-serif;
-  font-size: 42px;
-  letter-spacing: 0;
-  line-height: 46px; }
-
-h2 {
-  font-family: "Gibson-SemiBold", helvetica, sans-serif;
-  font-size: 2em;
-  letter-spacing: -0.025em;
-  line-height: 1em; }
-
-h3 {
-  font-family: "Gibson-Regular", helvetica, sans-serif;
-  font-size: 18px;
-  line-height: 21px;
-  margin: 0; }
-
-h4 {
-  font-family: "Gibson-SemiBold", helvetica, sans-serif;
-  font-size: 18px;
-  line-height: 22px;
-  text-transform: uppercase; }
-
-h5 {
-  font-family: "Gibson-Regular", helvetica, sans-serif;
-  font-size: 14px;
-  line-height: 20px;
-  text-transform: uppercase; }
-
-h6 {
-  font-family: "Gibson-SemiBold", helvetica, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  display: inline; }
-
-/* Highlights / bolding */
-p {
-  font-size: 16px;
-  line-height: 24px; }
-
-footer {
-  font-family: "Gibson-Regular", helvetica, sans-serif;
-  font-size: 0.9em; }
-  footer p {
-    margin-bottom: 6px; }
-  footer h4 {
-    margin-bottom: 24px; }
-
-header ul li {
-  font-family: "Gibson-Regular", helvetica, sans-serif;
-  font-size: 1.0em;
-  letter-spacing: 0.05em; }
-
-.bold {
-  font-family: "Gibson-SemiBold", helvetica, sans-serif; }
-
-@media screen and (min-width: 40em) {
-  h1 {
-    font-size: 42px;
-    line-height: 46px; }
-
-  h2 {
-    font-size: 3em; }
-
-  h5 {
-    font-size: 1.1em; }
-
-  .footnote-style {
-    font-size: 0.85em; }
-
-  .card-text-captions {
-    font-size: 0.75em;
-    margin-top: 0.25rem; }
-
-  .footer-text-links {
-    font-size: 0.85em; } }
-/* Desktop. */
-@media screen and (min-width: 55em) {
-  h5 {
-    font-size: 1.15em; }
-
-  .footnote-style {
-    font-size: 0.95em; }
-
-  .num-list {
-    font-size: 1.25em;
-    line-height: 1.65em; }
-
-  .card-text-captions {
-    font-size: 0.85em;
-    margin-top: 0; }
-
-  .card-text-right {
-    text-align: right; }
-
-  .footer-text-links {
-    font-size: 0.95em; } }
-video {
-  display: block;
-  margin: 0 auto;
-  padding: 40px;
-  max-width: 80%; }
-
-.video-mov-gif {
-  height: auto;
-  width: 240px;
-  display: block;
-  margin: 0 auto; }
-  @media screen and (min-width: 40em) {
-    .video-mov-gif {
-      width: 320px; } }
-
-.img-small {
-  width: 280px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-  -webkit-box-shadow: 2px 2px 5px -1px rgba(0, 0, 0, 0.6);
-  -moz-box-shadow: 2px 2px 5px -1px rgba(0, 0, 0, 0.6);
-  box-shadow: 2px 2px 5px -1px rgba(0, 0, 0, 0.6); }
-  @media screen and (min-width: 40em) {
-    .img-small {
-      width: 480px; } }
-
 /* Line Animation Code */
 .container1 {
   position: relative;
   float: left;
   margin: 0 auto; }
-
-.wrapper1 {
-  position: absolute;
-  float: left;
-  margin: 140px 100px; }
 
 .line {
   position: absolute;
@@ -392,38 +324,6 @@ video {
   bottom: 0px;
   -webkit-animation: dot-middle-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.1s infinite;
   animation: dot-middle-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.1s infinite; }
-
-.line4 {
-  margin-left: 105px;
-  background-color: black;
-  -webkit-animation: line 2s cubic-bezier(0.25, 0, 0.705, 1) 0.15s infinite;
-  animation: line 2s cubic-bezier(0.25, 0, 0.705, 1) 0.15s infinite; }
-
-.line4 > span {
-  background-color: black; }
-
-.line4 > .dotted > .dot {
-  background-color: black; }
-
-.line4 > .dotted > .dot-top {
-  top: 0px;
-  -webkit-animation: dot-top 2s cubic-bezier(0.25, 0, 0.705, 1) 0.15s infinite;
-  animation: dot-top 2s cubic-bezier(0.25, 0, 0.705, 1) 0.15s infinite; }
-
-.line4 > .dotted > .dot-bottom {
-  bottom: 0px;
-  -webkit-animation: dot-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.15s infinite;
-  animation: dot-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.15s infinite; }
-
-.line4 > .dotted > .dot-middle-top {
-  top: 0px;
-  -webkit-animation: dot-middle-top 2s cubic-bezier(0.25, 0, 0.705, 1) 0.15s infinite;
-  animation: dot-middle-top 2s cubic-bezier(0.25, 0, 0.705, 1) 0.15s infinite; }
-
-.line4 > .dotted > .dot-middle-bottom {
-  bottom: 0px;
-  -webkit-animation: dot-middle-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.15s infinite;
-  animation: dot-middle-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.15s infinite; }
 
 @-webkit-keyframes line {
   0% {
@@ -558,99 +458,195 @@ video {
   width: 100%; }
   .project-header .title {
     text-align: center;
-    margin-top: 24px; }
+    margin-top: 56px; }
 
+.project-header-img {
+  padding: 16px 0 36px 0; }
+
+/* Project specific */
 .envelopes {
   background-color: #d4ffe3; }
 
 .run-of-play {
-  background-color: #d1e4ff; }
+  background-color: #fff8e8; }
 
 .qep {
   background-color: #eaefff; }
 
+/* media queries imported at bottom of all.scss */
 body {
   background-color: white;
   color: #232323; }
 
 /* Spacing */
-.twenty-four {
+.small-spacer {
   margin-top: 24px; }
 
-.forty-eight {
+.medium-spacer {
   margin-top: 48px; }
 
-.sixty-four {
-  margin-top: 64px; }
+.large-spacer {
+  margin-top: 96px; }
 
-.hundred-twenty {
-  margin-top: 120px; }
+.x-large-spacer {
+  margin-top: 160px; }
 
 /* normal use */
 .float-right {
   position: relative;
   float: right; }
 
-/* ================ Header ==================== */
-header ul {
-  margin: 0;
-  margin-top: 1rem; }
-  header ul li {
-    list-style: none;
+/* ================ Landing. ==================== */
+#deck {
+  padding: 120px 0; }
+  #deck .my-name {
+    margin-bottom: 8px; }
+  #deck .read-more {
+    display: flex;
+    align-items: center;
+    margin-top: 32px; }
+  #deck h5 {
+    display: inline; }
+  #deck svg {
+    width: 36px;
+    height: auto;
+    margin-left: 16px; }
+
+/* Thumbnails. */
+.thumb-grid {
+  margin-top: 0; }
+
+.thumb-row {
+  margin-top: 64px; }
+
+/* ================ Navigation ==================== */
+nav {
+  padding: 0.9375rem;
+  text-transform: uppercase;
+  font-size: 14px; }
+  nav a {
     display: inline-flex;
     justify-content: center;
-    align-items: center;
-    height: 4.65rem;
-    width: 5rem; }
-  header ul .mark {
-    line-height: 120%;
-    text-transform: capitalize;
-    text-align: center;
-    border: 1px solid #000;
-    transition: color 0.25s, background-color 0.25s, ease 0.25s; }
+    align-items: center; }
 
-/* ================ Styling ==================== */
-.wrapper {
-  width: 100%;
-  height: auto;
-  background-color: #fff;
-  position: relative;
-  z-index: 2;
-  /* Stacking */
-  padding-bottom: 180px;
-  margin-bottom: 100vh; }
-
+/* ================ Footer ==================== */
 footer {
-  padding-top: 120px;
-  text-align: left;
-  background-color: #000;
-  color: #fff;
-  width: 100%;
-  height: 100vh;
-  position: fixed;
-  top: 0; }
+  margin-top: 120px;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem; }
+  footer .footer-back .footer-next h4 {
+    margin-top: 8px; }
+  footer .footer-animate {
+    display: flex;
+    justify-content: center; }
+  footer .footer-next {
+    text-align: right;
+    padding: 0; }
+  footer .footer-back {
+    padding: 0; }
+
+/* ================ About ==================== */
+.about-contact p {
+  margin-bottom: 6px; }
 
 .page-title {
   padding: 2rem 0 2rem 0; }
 
+/* Whats this */
 .project-label {
+  /* Home page labels */
   margin-top: 12px; }
   .project-label h3 {
     margin-bottom: 4px; }
 
-.envelopes {
-  background-color: #d4ffe3; }
+/* Media */
+video {
+  display: block;
+  margin: 0 auto;
+  padding: 40px;
+  max-width: 80%; }
 
-#deck {
-  padding: 120px 0 160px 0; }
-
-/* ================ PROJECT PAGES /all ==================== */
-.project-text {
-  padding-top: 1.25rem;
-  padding-bottom: 3rem; }
+.video-mov-gif {
+  height: auto;
+  width: 240px;
+  display: block;
+  margin: 0 auto; }
   @media screen and (min-width: 40em) {
-    .project-text {
-      padding-top: 2.5rem;
-      padding-bottom: 4rem; } }
+    .video-mov-gif {
+      width: 320px; } }
+
+.img-small {
+  width: 280px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  -webkit-box-shadow: 2px 2px 5px -1px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 2px 2px 5px -1px rgba(0, 0, 0, 0.6);
+  box-shadow: 2px 2px 5px -1px rgba(0, 0, 0, 0.6); }
+  @media screen and (min-width: 40em) {
+    .img-small {
+      width: 480px; } }
+
+/* Desktop. */
+@media screen and (min-width: 55em) {
+  /* landing */
+  #deck {
+    padding: 96px 0 120px 0; }
+    #deck .my-name {
+      margin-bottom: 0; }
+
+  /* Typography */
+  h1 {
+    font-size: 42px;
+    line-height: 46px;
+    text-align: left; }
+
+  h3 {
+    font-size: 18px; }
+
+  .footnote-style {
+    font-size: 0.95em; } }
+/* Tablet */
+@media screen and (min-width: 40em) {
+  /* footer */
+  footer {
+    display: flex;
+    align-items: center;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    padding-top: 60px;
+    margin-bottom: 40px;
+    padding-bottom: 40px; }
+
+  /* Project Images */
+  .project-header-img {
+    padding: 0; }
+
+  .title {
+    margin-top: 24px; }
+
+  /* Project Text */
+  .project-text {
+    padding-top: 2.5rem;
+    padding-bottom: 4rem; }
+
+  /* Thumbs */
+  .thumb-grid {
+    margin-top: 64px; }
+
+  .thumb-row {
+    margin-top: 0; }
+
+  /* Typography */
+  h1 {
+    font-size: 36px;
+    line-height: 42px;
+    text-align: left; }
+
+  h2 {
+    font-size: 3em; }
+
+  .footnote-style {
+    font-size: 0.85em; } }
 
 /*# sourceMappingURL=all.css.map */

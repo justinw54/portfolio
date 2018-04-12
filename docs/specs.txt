@@ -1,6 +1,6 @@
 
 
-Header image proportion:
+Header image proportion (&& thumbnails):
 1.5:1
 
 

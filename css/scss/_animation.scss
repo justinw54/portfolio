@@ -9,9 +9,7 @@
 }
 
 .wrapper1{
-  position: absolute;
-  float: left;
-  margin: 140px 100px;
+
 }
 
 .line{
@@ -151,40 +149,6 @@
   animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .1s infinite;
 }
 
-
-
-.line4{
-  margin-left: 105px;
-  background-color: rgba(0,0,0,1);
-  -webkit-animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) .15s infinite;
-  animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) .15s infinite;
-}
-.line4 > span{
-  background-color: rgba(0,0,0,1);
-}
-.line4 > .dotted > .dot{
-  background-color: rgba(0,0,0,1);
-}
-.line4 > .dotted > .dot-top{
-  top: 0px;
-  -webkit-animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) .15s infinite;
-  animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) .15s infinite;
-}
-.line4 > .dotted > .dot-bottom{
-  bottom: 0px;
-  -webkit-animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .15s infinite;
-  animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .15s infinite;
-}
-.line4 > .dotted > .dot-middle-top{
-  top: 0px;
-  -webkit-animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) .15s infinite;
-  animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) .15s infinite;
-}
-.line4 > .dotted > .dot-middle-bottom{
-  bottom: 0px;
-  -webkit-animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .15s infinite;
-  animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .15s infinite;
-}
 
 
 

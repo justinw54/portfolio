@@ -1,32 +1,82 @@
 
 
-video {
-  display: block;
-  margin: 0 auto;
-  padding: 40px;
-  max-width: 80%;
+
+
+/* Desktop. */
+@media screen and (min-width: 55em) {
+
+
+      /* landing */
+      #deck {
+        padding: 96px 0 120px 0;
+
+        .my-name {
+          margin-bottom: 0;
+        }
+      }
+
+
+
+      /* Typography */
+      h1 {
+        font-size: 42px;
+        line-height: 46px;
+        text-align: left;
+      }
+      h3 { font-size: 18px; }
+      .footnote-style { font-size: 0.95em; }
+
 }
 
-.video-mov-gif {
-  height: auto;
-  width: 240px;
-  display: block;
-  margin: 0 auto;
 
-  @media screen and (min-width: 40em) {
-    width: 320px;
-  }
-}
+/* Tablet */
+@media screen and (min-width: 40em) {
 
 
-.img-small {
-  width: 280px; //mobile
-  height: auto;
-  display: block;
-  margin: 0 auto;
-  @include shadow;
+    /* footer */
+    footer {
+      display: flex;
+      align-items: center;
+      padding-left: 0.9375rem;
+      padding-right: 0.9375rem;
 
-  @media screen and (min-width: 40em) {
-    width: 480px; //tablet, desktop
-  }
+      padding-top: 60px;
+      margin-bottom: 40px;
+      padding-bottom: 40px;
+    }
+
+      /* Project Images */
+      .project-header-img {
+        padding: 0;
+      }
+      .title {
+        margin-top: 24px;
+      }
+
+      /* Project Text */
+      .project-text {
+        padding-top: 2.5rem;
+        padding-bottom: 4rem;
+      }
+
+
+      /* Thumbs */
+      .thumb-grid {
+        margin-top: 64px;
+      }
+      .thumb-row {
+        margin-top: 0;
+      }
+
+      /* Typography */
+      h1 {
+        font-size: 36px;
+        line-height: 42px;
+        text-align: left;
+
+      }
+
+      h2 { font-size: 3em; }
+      .footnote-style { font-size: 0.85em; }
+
 }
