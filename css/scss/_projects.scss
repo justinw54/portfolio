@@ -38,3 +38,12 @@
   // @extend .project-header;
   background-color: $qep;
 }
+
+
+/* The Port */
+
+.the-port-header {
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}

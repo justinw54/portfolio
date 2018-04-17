@@ -1,72 +1,44 @@
 
 
-Navigation:
-  ✔ Re-structure landing (nav - remove) @done(2018-04-12 14:29) @project(Navigation)
-  ✔ Remove box around Justin White. @done(2018-04-12 14:40) @project(Navigation)
-  ✔ Change to "about" @done(2018-04-12 14:40) @project(Navigation)
-  ✔ Add about.html / link. @done(2018-04-12 14:34) @project(Navigation)
-  ✔ Remove max-width. @done(2018-04-12 14:32) @project(Navigation)
-  ✔ Edit for mobile responsive @done(2018-04-12 14:32) @project(Navigation)
-
-
-Footer:
-  ✔ Gut all code. @done(2018-04-12 15:08) @project(Footer)
-  ✔ Build footer div @done(2018-04-12 15:48) @project(Footer)
-  ✔ Make mobile responsive (flexbox) @done(2018-04-12 15:48) @project(Footer)
-  ✔ Add to all pages. @done(2018-04-12 16:31) @project(Footer)
-  ✔ Update link ordering. @done(2018-04-12 16:31) @project(Footer)
-
-Mobile Responsive:
-  ✔ Divide site into Components @done(2018-04-12 17:03) @project(Mobile Responsive)
-  ✔ ..Refine code by component / responsive. @done(2018-04-12 17:03) @project(Mobile Responsive)
-
-
-  ✔ Update div class row across projects. @done(2018-04-12 17:08) @project(Mobile Responsive)
-  ✔ Update spacing values across projects @done(2018-04-12 17:08) @project(Mobile Responsive)
-  ✔ Add gibson type files. @done(2018-04-12 17:17) @project(Mobile Responsive)
-
-About:
-  ✔ Add content @done(2018-04-12 17:54) @project(About)
-  ✔ Type set. @done(2018-04-12 17:54) @project(About)
-  ✔ Link hover interactions. @done(2018-04-12 18:35) @project(End of Today)
+Envelopes:
+  ✔ Export framer gif's, set in mobile mockups. @done(2018-04-17 12:29) @project(Envelopes)
+  ✔ Attempt 2X more mockups: (a) 5 screens, (b) 10 screens, tiled. @done(2018-04-17 12:29) @project(Envelopes)
 
 
 
-For next:
+  ☐ Add/write process sections (only)
 
-  ☐ Animation link to home.
-  ☐ QEP slider correction
-  ☐ QEP image width correction.
-  ☐ Upload to FTP.
+Close out:
+☐ Commit to github
+☐ Upload to FTP
+☐ Test on browsers.
 
 
 
-Interactivity:
-  ✔ Link hover @done(2018-04-12 19:00) @project(Interactivity)
-    ✔ Add CMYK interaction (link hover) @done(2018-04-12 19:00) @project(Interactivity)
 
+
+
+
+
+
+# Run of Play:
+  ☐ High fidelity mockup revision ~6+ hr.
+  ☐ In-depth personas built on interviews (see loupe/letter)  ~4 hr+
+  ☐ Add Reflection section
+  ☐ Revised framer flows: use a Nexus phone.
+
+### Backlog:
+  ☐ Component based web development
+  ☐ Better colour management
+
+  ☐ Interactivity:
+    ☐ Home page thumbnail hover
+    ☐ Sticky navigation
+    
   ☐ Footer animation:
       ☐ Re-colour animation (black at rest)
-      ☐ Add link interaction to animation
+      ☐ Add link interaction to animation (home)
       ☐ Change colour on hover -> if possible.
-
-
-(next: case study updates, image quality.)
-
-
-
-
-
-
-Backlog:
-  ☐ Code Re/Factor.
-  ☐ Component based web development
-  ☐ Adding ++interactivity.
-  ☐ Better colour management
-  ☐ Navigation (sticky?)
-  ☐ Higher Resolution Images
-
-
 
 
 
@@ -148,3 +120,49 @@ Projects, Planning:
     ✔ Migrate copy / cut down. @done(2018-04-11 07:09) @project(Projects, Planning / ☐ QEP)
     ✔ Migrate images @done(2018-04-11 10:52) @project(Projects, Planning / ☐ QEP)
     ✔ Add outcome @done(2018-04-11 10:52) @project(Projects, Planning / ☐ QEP)
+
+
+
+Navigation:
+  ✔ Re-structure landing (nav - remove) @done(2018-04-12 14:29) @project(Navigation)
+  ✔ Remove box around Justin White. @done(2018-04-12 14:40) @project(Navigation)
+  ✔ Change to "about" @done(2018-04-12 14:40) @project(Navigation)
+  ✔ Add about.html / link. @done(2018-04-12 14:34) @project(Navigation)
+  ✔ Remove max-width. @done(2018-04-12 14:32) @project(Navigation)
+  ✔ Edit for mobile responsive @done(2018-04-12 14:32) @project(Navigation)
+
+
+Footer:
+  ✔ Gut all code. @done(2018-04-12 15:08) @project(Footer)
+  ✔ Build footer div @done(2018-04-12 15:48) @project(Footer)
+  ✔ Make mobile responsive (flexbox) @done(2018-04-12 15:48) @project(Footer)
+  ✔ Add to all pages. @done(2018-04-12 16:31) @project(Footer)
+  ✔ Update link ordering. @done(2018-04-12 16:31) @project(Footer)
+
+Mobile Responsive:
+  ✔ Divide site into Components @done(2018-04-12 17:03) @project(Mobile Responsive)
+  ✔ ..Refine code by component / responsive. @done(2018-04-12 17:03) @project(Mobile Responsive)
+
+
+  ✔ Update div class row across projects. @done(2018-04-12 17:08) @project(Mobile Responsive)
+  ✔ Update spacing values across projects @done(2018-04-12 17:08) @project(Mobile Responsive)
+  ✔ Add gibson type files. @done(2018-04-12 17:17) @project(Mobile Responsive)
+
+About:
+  ✔ Add content @done(2018-04-12 17:54) @project(About)
+  ✔ Type set. @done(2018-04-12 17:54) @project(About)
+  ✔ Link hover interactions. @done(2018-04-12 18:35) @project(End of Today)
+
+
+Case Studies:
+  ☐ Envelopes:
+    ✔ Add new sections to code. (placeholder text) @done(2018-04-16 17:18) @project(Case Studies / ☐ Envelopes)
+    ✔ (Add padding to bottom, universal) @done(2018-04-16 17:23) @project(Case Studies / ☐ Envelopes)
+    ✔ Make outcomes left/right side alternate. @done(2018-04-16 17:23) @project(Case Studies / ☐ Envelopes)
+    ✔ re/code header section @done(2018-04-16 18:24) @project(Case Studies / ☐ Envelopes)
+
+  ☐ QEP:
+    ✔ slider correction @done(2018-04-16 18:32) @project(Case Studies / ☐ QEP)
+    ✔ image width correction @done(2018-04-16 18:32) @project(Case Studies / ☐ QEP)
+    ✔ Re-order outcome videos for responsive display. @done(2018-04-16 18:41) @project(Case Studies / ☐ QEP)
+    ✔ Uniform background colors, header/thumbs. @done(2018-04-16 18:51) @project(Case Studies / ☐ QEP)

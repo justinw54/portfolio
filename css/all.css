@@ -110,10 +110,20 @@ a:hover {
 .parallax {
   width: 100%;
   height: auto; }
+  @media screen and (max-width: 40em) {
+    .parallax {
+      display: none; } }
+
+.the-port-mobile {
+  position: relative;
+  top: -30px; }
+  @media screen and (min-width: 40em) {
+    .the-port-mobile {
+      display: none; } }
 
 /* Parallax Container  */
 #little-current {
-  height: 320px;
+  height: 480px;
   overflow: hidden;
   position: relative; }
   @media screen and (min-width: 40em) {
@@ -468,10 +478,16 @@ a:hover {
   background-color: #d4ffe3; }
 
 .run-of-play {
-  background-color: #fff8e8; }
+  background-color: #d6ebfc; }
 
 .qep {
-  background-color: #eaefff; }
+  background-color: #e7ddfe; }
+
+/* The Port */
+.the-port-header {
+  position: absolute;
+  width: 100%;
+  z-index: 2; }
 
 /* media queries imported at bottom of all.scss */
 body {
@@ -500,7 +516,7 @@ body {
 #deck {
   padding: 120px 0; }
   #deck .my-name {
-    margin-bottom: 8px; }
+    margin: 8px 0; }
   #deck .read-more {
     display: flex;
     align-items: center;
@@ -532,6 +548,7 @@ nav {
 /* ================ Footer ==================== */
 footer {
   margin-top: 120px;
+  margin-bottom: 60px;
   padding-left: 0.9375rem;
   padding-right: 0.9375rem; }
   footer .footer-back .footer-next h4 {
@@ -559,7 +576,7 @@ footer {
   .project-label h3 {
     margin-bottom: 4px; }
 
-/* Media */
+/* ================ Media ==================== */
 video {
   display: block;
   margin: 0 auto;
@@ -574,6 +591,10 @@ video {
   @media screen and (min-width: 40em) {
     .video-mov-gif {
       width: 320px; } }
+
+/* Border for process images. */
+.process-border {
+  border: 1px solid rgba(0, 0, 0, 0.15); }
 
 .img-small {
   width: 280px;
@@ -615,7 +636,7 @@ video {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     padding-top: 60px;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
     padding-bottom: 40px; }
 
   /* Project Images */
