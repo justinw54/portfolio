@@ -104,103 +104,6 @@ a:hover {
 .tint:hover {
   background-color: #f2f2f2; }
 
-/* ==========================================================================
-   The Port: Banner & Parallax
-   ========================================================================== */
-.parallax {
-  width: 100%;
-  height: auto; }
-  @media screen and (max-width: 40em) {
-    .parallax {
-      display: none; } }
-
-.the-port-mobile {
-  position: relative;
-  top: -30px; }
-  @media screen and (min-width: 40em) {
-    .the-port-mobile {
-      display: none; } }
-
-/* Parallax Container  */
-#little-current {
-  height: 480px;
-  overflow: hidden;
-  position: relative; }
-  @media screen and (min-width: 40em) {
-    #little-current {
-      height: 640px; } }
-  @media screen and (min-width: 55em) {
-    #little-current {
-      height: 860px; } }
-
-#little-current .layer {
-  height: 320px;
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  position: absolute;
-  z-index: -1; }
-  @media screen and (min-width: 40em) {
-    #little-current .layer {
-      height: 640px; } }
-  @media screen and (min-width: 55em) {
-    #little-current .layer {
-      height: 860px; } }
-
-/* keyart frames */
-.layer.layer-00 {
-  background-image: url("../img/the-port/banner/keyart-1-a-1.png");
-  width: 100%; }
-
-.layer.layer-01 {
-  background-image: url("../img/the-port/banner/keyart-2.png");
-  width: 100%; }
-
-.layer.layer-02 {
-  background-image: url("../img/the-port/banner/keyart-3_banner.png");
-  width: 100%;
-  animation-name: up-down;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-  animation-duration: 2s;
-  animation-iteration-count: infinite; }
-
-.layer.layer-03 {
-  background-image: url("../img/the-port/banner/keyart-4_banner.png");
-  width: 100%;
-  animation-name: down-up;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-  animation-duration: 2s;
-  animation-iteration-count: infinite; }
-
-.layer.layer-04 {
-  background-image: url("../img/the-port/banner/keyart-5_banner.png");
-  width: 100%;
-  animation-name: up-down;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-  animation-duration: 2s;
-  animation-iteration-count: infinite; }
-
-/*  ==========================================================================
-    Animations
-    ========================================================================== */
-@keyframes up-down {
-  0% {
-    top: 0%; }
-  50% {
-    top: 0.75%; }
-  100% {
-    top: 1.25%; } }
-@keyframes down-up {
-  0% {
-    top: 1.25%; }
-  50% {
-    top: 0.75%; }
-  100% {
-    top: 0%; } }
 /* Line Animation Code */
 .container1 {
   position: relative;
@@ -483,12 +386,109 @@ a:hover {
 .qep {
   background-color: #e7ddfe; }
 
+.tressle {
+  background-color: #fff6f9; }
+
 /* The Port */
 .the-port-header {
   position: absolute;
   width: 100%;
   z-index: 2; }
 
+/* Tressle */
+/* ==========================================================================
+   The Port: Banner & Parallax
+   ========================================================================== */
+.parallax {
+  width: 100%;
+  height: auto; }
+  @media screen and (max-width: 40em) {
+    .parallax {
+      display: none; } }
+
+.the-port-mobile {
+  position: relative;
+  top: -30px; }
+  @media screen and (min-width: 40em) {
+    .the-port-mobile {
+      display: none; } }
+
+/* Parallax Container  */
+#little-current {
+  height: 480px;
+  overflow: hidden;
+  position: relative; }
+  @media screen and (min-width: 40em) {
+    #little-current {
+      height: 640px; } }
+  @media screen and (min-width: 55em) {
+    #little-current {
+      height: 860px; } }
+
+#little-current .layer {
+  height: 320px;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: absolute;
+  z-index: -1; }
+  @media screen and (min-width: 40em) {
+    #little-current .layer {
+      height: 640px; } }
+  @media screen and (min-width: 55em) {
+    #little-current .layer {
+      height: 860px; } }
+
+/* keyart frames */
+.layer.layer-00 {
+  background-image: url("../img/the-port/banner/keyart-1-a-1.png");
+  width: 100%; }
+
+.layer.layer-01 {
+  background-image: url("../img/the-port/banner/keyart-2.png");
+  width: 100%; }
+
+.layer.layer-02 {
+  background-image: url("../img/the-port/banner/keyart-3_banner.png");
+  width: 100%;
+  animation-name: up-down;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+  animation-duration: 1.25s;
+  animation-iteration-count: infinite; }
+
+.layer.layer-03 {
+  background-image: url("../img/the-port/banner/keyart-4_banner.png");
+  width: 100%;
+  animation-name: down-up;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+  animation-duration: 1.25s;
+  animation-iteration-count: infinite; }
+
+.layer.layer-04 {
+  background-image: url("../img/the-port/banner/keyart-5_banner.png");
+  width: 100%;
+  animation-name: up-down;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+  animation-duration: 1.25s;
+  animation-iteration-count: infinite; }
+
+/*  ==========================================================================
+    Animations
+    ========================================================================== */
+@keyframes up-down {
+  0% {
+    top: 0%; }
+  100% {
+    top: 1%; } }
+@keyframes down-up {
+  0% {
+    top: 1%; }
+  100% {
+    top: 0%; } }
 /* media queries imported at bottom of all.scss */
 body {
   background-color: white;
@@ -506,6 +506,10 @@ body {
 
 .x-large-spacer {
   margin-top: 160px; }
+
+.image-inset {
+  margin-top: 0;
+  /* media query: only active on tablet, desktop */ }
 
 /* normal use */
 .float-right {
@@ -608,8 +612,26 @@ video {
     .img-small {
       width: 480px; } }
 
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 0;
+  overflow: hidden; }
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
 /* Desktop. */
 @media screen and (min-width: 55em) {
+  .image-inset {
+    margin-top: 96px; }
+
   /* landing */
   #deck {
     padding: 96px 0 120px 0; }
@@ -629,6 +651,9 @@ video {
     font-size: 0.95em; } }
 /* Tablet */
 @media screen and (min-width: 40em) {
+  .image-inset {
+    margin-top: 48px; }
+
   /* footer */
   footer {
     display: flex;

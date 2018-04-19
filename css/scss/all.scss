@@ -16,6 +16,10 @@ body {
 .large-spacer { margin-top: $large; }
 .x-large-spacer { margin-top: $x-large; }
 
+.image-inset {
+  margin-top: 0;
+  /* media query: only active on tablet, desktop */
+}
 
 /* normal use */
 .float-right {
@@ -158,6 +162,26 @@ video {
     width: 480px; //tablet, desktop
   }
 }
+
+.video-container {
+   position: relative;
+   padding-bottom: 56.25%;
+   padding-top: 35px;
+   max-width: 1200px;
+   margin: 0 auto;
+   height: 0;
+   overflow: hidden;
+
+   iframe {
+       position: absolute;
+       top:0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+   }
+}
+
+
 
 
 
