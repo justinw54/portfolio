@@ -98,6 +98,7 @@ a:hover {
   .footer-link h4 {
     margin-bottom: 0; }
 
+/* thumbnail hover */
 .tint {
   transition: background-color 0.2s ease 0.05s; }
 
@@ -376,7 +377,7 @@ a:hover {
 .project-header-img {
   padding: 16px 0 36px 0; }
 
-/* Project specific */
+/* Project Colours */
 .envelopes {
   background-color: #d4ffe3; }
 
@@ -384,10 +385,13 @@ a:hover {
   background-color: #d6ebfc; }
 
 .qep {
-  background-color: #e7ddfe; }
+  background-color: #e3dfff; }
 
 .tressle {
   background-color: #fff6f9; }
+
+.ursa {
+  background-color: #d5d5ed; }
 
 /* The Port */
 .the-port-header {
@@ -506,6 +510,9 @@ body {
 
 .x-large-spacer {
   margin-top: 160px; }
+
+.video-below {
+  margin-bottom: 96px; }
 
 .image-inset {
   margin-top: 0;

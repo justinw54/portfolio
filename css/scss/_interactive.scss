@@ -34,11 +34,24 @@
       }
     }
 
+/* thumbnail hover */
+// .thumb-container {
+//   position: relative;
+//   overflow: hidden;
+//
+//   img {
+//     transition: all .2s ease-in-out;
+//   }
+//
+//   img:hover {
+//     transform: scale(1.08);
+//   }
+// }
 
 
-    .tint {
-      transition: background-color 0.2s ease 0.05s;
-    }
-    .tint:hover {
-      background-color: darken($primary-bkgd, 5%);
-    }
+.tint {
+  transition: background-color 0.2s ease 0.05s;
+}
+.tint:hover {
+  background-color: darken($primary-bkgd, 5%);
+}

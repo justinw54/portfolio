@@ -21,27 +21,13 @@
 
 
 
-/* Project specific */
+/* Project Colours */
 
-
-.envelopes {
-    // @extend .project-header;
-    background-color: $envelopes;
-}
-
-.run-of-play {
-    // @extend .project-header;
-    background-color: $play;
-}
-
-.qep {
-  // @extend .project-header;
-  background-color: $qep;
-}
-
-.tressle {
-  background-color: #fff6f9;
-}
+.envelopes { background-color: $envelopes; }
+.run-of-play { background-color: $play; }
+.qep { background-color: $qep; }
+.tressle { background-color: #fff6f9; }
+.ursa { background-color: $ursa; }
 
 /* The Port */
 

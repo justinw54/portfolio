@@ -1,21 +1,13 @@
 
 
-Envelopes:
-  ✔ Export framer gif's, set in mobile mockups. @done(2018-04-17 12:29) @project(Envelopes)
-  ✔ Attempt 2X more mockups: (a) 5 screens, (b) 10 screens, tiled. @done(2018-04-17 12:29) @project(Envelopes)
-
-
-
-  ☐ Add/write process sections (only)
-
-Close out:
-☐ Commit to github
-☐ Upload to FTP
-☐ Test on browsers.
-
-
-
-
+# Ursa:
+  ☐ Thumbnail img / Header
+  ☐ Page designs, all devices img.
+  ☐ Slider, navigation process
+  ☐ Product Page; spinning GIF (explain?)
+  ☐ Add thumb to index.html (swap for Run of Play.)
+  ☐ Re-configure footer cycle.
+  ☐ Test.
 
 
 
@@ -28,11 +20,15 @@ Close out:
   ☐ Revised framer flows: use a Nexus phone.
 
 ### Backlog:
+  ☐ Optimize images (esp. thumbs)
   ☐ Component based web development
   ☐ Better colour management
 
   ☐ Interactivity:
     ☐ Home page thumbnail hover
+          3X image shuffle on hover (animate)
+          Scale/Zoom
+
     ☐ Sticky navigation
 
 
