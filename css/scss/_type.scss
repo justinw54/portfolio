@@ -22,8 +22,14 @@ h2 {
 
 h3 {
   font-family: $body-font;
-  font-size: 16px;
-  line-height: 21px;
+  font-size: 18px;
+  line-height: 24px;
+
+@media screen and (min-width: 55em)  {
+  font-size: 21px;
+  line-height: 26px;
+}
+@media screen and (min-width: 40em) {}
 
 }
 
@@ -48,8 +54,8 @@ h6 {
 }     /* Highlights / bolding */
 
 p {
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 18px;
+  line-height: 28px;
 }
 
 

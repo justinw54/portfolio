@@ -1,56 +1,50 @@
 
 
-Friday, May 4:
-  ✔ Update Footer cycle / Thumb order (ENV -> URS -> TRE -> QEP -> POR) @done(2018-05-04 12:45) @project(Friday, May 4)
-  ✔ Add ursa.reflektor.design, tressle.com page links. @done(2018-05-04 12:48) @project(Friday, May 4)
+Project Edits:
+*Edits will take at least a day per project – so set aside an appropriate amount of time.
+
+  ☐ Envelopes:
+    ☐ Write case study.
+    ☐ Explore intro designs, animations
+    ☐ High-fidelity explorations; try very different versions
+    ☐ Design (on paper) extended interactions:
+      ☐ Create new budget/envelope
+      ☐ Shuffle envelopes
+      ☐ Remove/edit transaction
 
   ☐ Ursa:
+    ☐ (explore) possible exhibit designs.
     ☐ Page designs, all devices img.
     ☐ Slider, navigation process
     ☐ Product Page; spinning GIF (explain?)
 
 
-
-
-
-
-
-
-
-
-
-
-
-Project Edits:
-
-  ☐ Envelopes:
-    ☐ Re-write case study
-
-  ☐ QEP:
-    ☐ Re-think case study (cut down/more logical)
-    ☐ Revised visual design
-    ☐ Framer Flows
-
-  ☐ Run of Play:
-    ☐ High fidelity mockup revision ~6+ hr.
-    ☐ In-depth personas built on interviews (see loupe/letter)  ~4 hr+
-    ☐ Add Reflection section
-    ☐ Revised framer flows: use a Nexus phone.
-
+(Consider revisiting QEP ..)
 
 Code Refactor:
 
   ☐ Research:
     ☐ Performance enhancements (optimizations)
-    ☐ Gatsby build
-    ☐ Interactive landing page (explore)
+    ☐ Gatsby build (6 hrs. to start, minimum.)
 
-Backlog:
-  ☐ thumbnail designs (explore)
+
+Design Explorations:
+  ☐ 1. Landing Page Interaction (no-scroll)
+  ☐ 2. Thumbnail designs.
+  ☐ 3. Landings, Projects.
+
   ☐ Typography:
     ☐ Pull quote styling (explore)
     ☐ Footnote styling.
+
   ☐ Footer animation:
       ☐ Re-colour animation (black at rest)
       ☐ Add link interaction to animation (home)
       ☐ Change colour on hover -> if possible.
+
+
+Page Speed Test, May 15:
+  Landing   60/89
+  Envelopes 92/78
+
+(desktop/mobile)
