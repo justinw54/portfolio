@@ -1,19 +1,22 @@
 import Header from '../components/Header';
+import styled from 'styled-components'
 
-const layoutStyle = {
-    padding: 20,
-    maxWidth: 960,
-    margin: '0 auto'
+export const Wrapper = styled.div`
+	display: flex;
+	flex-direction: column;
+    flex: 1;
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+`
 
-};
+const Layout = ({ children }) => {
+	return (
+		<Wrapper>
+			{children}
+			<Header/>
+		</Wrapper>
+	)
+}
 
-const Layout = props => (
-    <div style={layoutStyle}>
-        
-        {props.children}
-        <Header />
-        
-    </div>
-);
-
-export default Layout;
+export default Layout
