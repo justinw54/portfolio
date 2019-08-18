@@ -30,7 +30,7 @@ export const SubHeading = styled.h4`
     font-size: 16px;
     line-height: 22px;
     font-weight: 400;
-    color: #938D84;
+    opacity: .5;
     margin: 0;
 `
 
@@ -68,7 +68,7 @@ export const Caption = styled.p`
 
 export const TextLink = styled.a`
     text-decoration: none;
-    color: #3004B8;
+    color: #E0D199;
     cursor: pointer;
     &hover {
         text-decoration: underline;

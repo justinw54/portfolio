@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -230,7 +230,7 @@ const ImageFull = () => {
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Image, {
-    src: "../static/SB-thumb.png",
+    src: "../static/smartbldgs_display_centered@2x.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24
@@ -342,7 +342,7 @@ const SubHeading = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.h4`
     font-size: 16px;
     line-height: 22px;
     font-weight: 400;
-    color: #938D84;
+    opacity: .5;
     margin: 0;
 `;
 const BlockQuote = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.h5`
@@ -375,7 +375,7 @@ const Caption = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.p`
 `;
 const TextLink = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.a`
     text-decoration: none;
-    color: #3004B8;
+    color: #E0D199;
     cursor: pointer;
     &hover {
         text-decoration: underline;
@@ -1284,7 +1284,7 @@ const Intro = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_
 
 /***/ }),
 
-/***/ 5:
+/***/ 4:
 /*!**********************************!*\
   !*** multi ./pages/envelopes.js ***!
   \**********************************/

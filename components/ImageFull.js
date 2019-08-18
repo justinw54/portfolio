@@ -22,7 +22,7 @@ const ImageFull = () => {
     return (
         <ImageWrapper>
             <Image 
-                src="../static/SB-thumb.png"
+                src="../static/smartbldgs_display_centered@2x.png"
             />
         </ImageWrapper> 
     )

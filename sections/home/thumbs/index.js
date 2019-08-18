@@ -10,12 +10,12 @@ const Thumbs = () => {
             <G.Small/>
             <S.ThumbsTwoColumn>
                 <S.ImageLinkWrapper>
-                    <S.ImageWrapper src="../static/MDC-thumb.png"/>
+                    <S.ImageWrapper src="../static/MDC_white_thumb_logo_only@2x.png"/>
                 </S.ImageLinkWrapper>
 
                 <Link href="/envelopes">
                     <S.ImageLinkWrapper>
-                        <S.ImageWrapper src="../static/ENV-thumb.png"/>
+                        <S.ImageWrapper src="../static/_envelopes-thumb-mobile-multiple@2x.png"/>
                     </S.ImageLinkWrapper>
                 </Link>                
             </S.ThumbsTwoColumn>

@@ -191,7 +191,7 @@ var ImageFull = function ImageFull() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Image, {
-    src: "../static/SB-thumb.png",
+    src: "../static/smartbldgs_display_centered@2x.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24
@@ -281,7 +281,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject9() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    text-decoration: none;\n    color: #3004B8;\n    cursor: pointer;\n    &hover {\n        text-decoration: underline;\n    }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    text-decoration: none;\n    color: #E0D199;\n    cursor: pointer;\n    &hover {\n        text-decoration: underline;\n    }\n"]);
 
   _templateObject9 = function _templateObject9() {
     return data;
@@ -331,7 +331,7 @@ function _templateObject5() {
 }
 
 function _templateObject4() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    font-family: 'Gibson-Regular';\n    font-size: 16px;\n    line-height: 22px;\n    font-weight: 400;\n    color: #938D84;\n    margin: 0;\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    font-family: 'Gibson-Regular';\n    font-size: 16px;\n    line-height: 22px;\n    font-weight: 400;\n    opacity: .5;\n    margin: 0;\n"]);
 
   _templateObject4 = function _templateObject4() {
     return data;

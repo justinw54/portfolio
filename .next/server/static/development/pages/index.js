@@ -230,7 +230,7 @@ const ImageFull = () => {
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Image, {
-    src: "../static/SB-thumb.png",
+    src: "../static/smartbldgs_display_centered@2x.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24
@@ -342,7 +342,7 @@ const SubHeading = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.h4`
     font-size: 16px;
     line-height: 22px;
     font-weight: 400;
-    color: #938D84;
+    opacity: .5;
     margin: 0;
 `;
 const BlockQuote = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.h5`
@@ -375,7 +375,7 @@ const Caption = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.p`
 `;
 const TextLink = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.a`
     text-decoration: none;
-    color: #3004B8;
+    color: #E0D199;
     cursor: pointer;
     &hover {
         text-decoration: underline;
@@ -1052,11 +1052,12 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 /*!************************!*\
   !*** ./pages/index.js ***!
   \************************/
-/*! exports provided: default */
+/*! exports provided: HomePage, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomePage", function() { return HomePage; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Index; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
@@ -1064,38 +1065,50 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _sections_home_thumbs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../sections/home/thumbs */ "./sections/home/thumbs/index.js");
 /* harmony import */ var _sections_home_landing__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../sections/home/landing */ "./sections/home/landing/index.js");
 /* harmony import */ var _sections_home_bio__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../sections/home/bio */ "./sections/home/bio/index.js");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_5__);
 var _jsxFileName = "/Users/justin.w/Documents/GitHub/portfolio/pages/index.js";
 
 
 
 
 
+
+const HomePage = styled_components__WEBPACK_IMPORTED_MODULE_5___default.a.div`
+    background-color: #000;
+`;
 function Index() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(HomePage, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 13
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_sections_home_landing__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 15
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_sections_home_thumbs__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 16
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_sections_home_bio__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 17
     },
     __self: this
-  }));
+  })));
 }
 
 /***/ }),
@@ -1314,6 +1327,7 @@ const ThumbsTwoColumn = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a
 `;
 const ImageLinkWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.a`
     width: 49%;
+    height: auto;
     display: block;
     cursor: pointer;
 
@@ -1389,7 +1403,7 @@ const Thumbs = () => {
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Thumbs_styled__WEBPACK_IMPORTED_MODULE_1__["ImageWrapper"], {
-    src: "../static/MDC-thumb.png",
+    src: "../static/MDC_white_thumb_logo_only@2x.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
@@ -1409,7 +1423,7 @@ const Thumbs = () => {
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Thumbs_styled__WEBPACK_IMPORTED_MODULE_1__["ImageWrapper"], {
-    src: "../static/ENV-thumb.png",
+    src: "../static/_envelopes-thumb-mobile-multiple@2x.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18

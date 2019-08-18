@@ -17,6 +17,7 @@ export const ThumbsTwoColumn = styled.div`
 `
 export const ImageLinkWrapper = styled.a`
     width: 49%;
+    height: auto;
     display: block;
     cursor: pointer;
 
